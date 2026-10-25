@@ -1,0 +1,39 @@
+{
+  "stage": "PHASE_4_KAN_MODEL_DEVELOPMENT_AND_EVALUATION",
+  "run_id": "run_001",
+  "execution_timestamp_utc": "2026-10-15T15:46:21.345336+00:00",
+  "execution_status": "INFRASTRUCTURE_VERIFIED_REAL_TRAINING_BLOCKED",
+  "software_environment": {
+    "python": "3.10.11",
+    "tensorflow": "2.21.0",
+    "numpy": "2.2.6",
+    "platform": "win32"
+  },
+  "gate_enforcement": {
+    "phase2a_gate_status": "OPEN",
+    "is_blocked": true,
+    "blocker_reason": "Real-data model training and evaluation are BLOCKED: Phase 2A Finalization Gate remains officially 'OPEN' in step2b_consistency_audit.md. Per Mandatory Rule 4, training must not proceed until formal user authorization and gate closure."
+  },
+  "dataset_summary": {
+    "total_accepted_windows": 1029,
+    "total_subjects": 24,
+    "loso_folds_count": 24,
+    "zero_subject_leakage_verified": true
+  },
+  "models_implemented": [
+    "KANRegressor (Conv1D + 2-layer B-spline KAN)",
+    "MLPRegressor (Conv1D + 2-layer Dense MLP)",
+    "MeanPredictorBaseline (Training-fold mean HR)"
+  ],
+  "deliverable_files": [
+    "run_manifest.json",
+    "input_validation_report.md",
+    "model_architecture_summary.md",
+    "fold_split_manifest.csv",
+    "training_config.json",
+    "baseline_comparison_report.md",
+    "test_execution_record.md",
+    "error_log.md",
+    "phase4_final_report.md"
+  ]
+}

@@ -1,0 +1,13 @@
+filename,path,size_bytes,mtime_utc,sha256,covered_by_3_manifests
+accepted_window_manifest.csv,kan_radar_HR/outputs/supervised_dataset/run_001/accepted_window_manifest.csv,267622,2026-10-15T15:13:06.200727+00:00,cbe9358b2e649b4b8ca81d70f7863d418e07cec7cc9d91abb04145963e987e51,YES
+candidate_window_manifest.csv,kan_radar_HR/outputs/supervised_dataset/run_001/candidate_window_manifest.csv,275518,2026-10-15T15:13:06.158603+00:00,4deb6fab9d77df91474f1d6e7faa5e5d9304500457f3c4a0e8cdde0ac2cb1d8e,YES
+dataset_generation_config.json,kan_radar_HR/outputs/supervised_dataset/run_001/dataset_generation_config.json,1182,2026-10-15T15:13:06.204918+00:00,81bf9ff635f34d6d27bb5b2f2264fbd634ebd012f9d5bb93b23cfda11f1125ab,NO
+dataset_validation_report.md,kan_radar_HR/outputs/supervised_dataset/run_001/dataset_validation_report.md,5370,2026-10-15T15:15:45.597333+00:00,f4153b03542c805ef8a38639ac244741c151c4814fd9b308a4286a8cc4e1cd38,NO
+error_log.md,kan_radar_HR/outputs/supervised_dataset/run_001/error_log.md,4569,2026-10-15T15:16:05.090520+00:00,ab382626493eacd809c9e773fb327d81b3fd2864651fb456b95ccec22d4fd060,NO
+final_stage_report.md,kan_radar_HR/outputs/supervised_dataset/run_001/final_stage_report.md,8111,2026-10-15T15:19:05.585678+00:00,50396809ae2807ea3dd38d49cf2c475b9cdf8278a7901bbef17ac96b4c3e2792,NO
+implementation_summary.md,kan_radar_HR/outputs/supervised_dataset/run_001/implementation_summary.md,5474,2026-10-15T15:13:55.681631+00:00,96d7dc53f84e19b65ffeb73d62cfe8d4a7c39bf4a0b27bc0fe81501caae80b5b,NO
+reference_label_audit.md,kan_radar_HR/outputs/supervised_dataset/run_001/reference_label_audit.md,4499,2026-10-15T15:14:28.797415+00:00,c14c83cbf734c29a3f2d062e1a32cc918c9fc76a850cfa99e15f7d9983f217c0,NO
+rejected_window_manifest.csv,kan_radar_HR/outputs/supervised_dataset/run_001/rejected_window_manifest.csv,8208,2026-10-15T15:13:06.203904+00:00,bafa101219e735d82ffb577a4c6e4342e32d1fedfe2673e81215596e7ff7512e,YES
+run_manifest.json,kan_radar_HR/outputs/supervised_dataset/run_001/run_manifest.json,1851,2026-10-15T15:13:06.205917+00:00,ebb6a1eb015213fea7d42adddc96fc0b2cfdbea2b95b64815801def307bb557c,NO
+synchronization_assumptions_record.md,kan_radar_HR/outputs/supervised_dataset/run_001/synchronization_assumptions_record.md,3643,2026-10-15T15:14:50.384678+00:00,cf5c2230e748e26855b1820f5fd5335a4e4d8f34ea1d68b52f3c5fd60d26ec83,NO
+test_execution_record.md,kan_radar_HR/outputs/supervised_dataset/run_001/test_execution_record.md,4531,2026-10-15T15:18:35.825208+00:00,5ca0b712665a1bab90d40e4c0ac688ef52c932563169dfbcc0433a2aec8533be,NO

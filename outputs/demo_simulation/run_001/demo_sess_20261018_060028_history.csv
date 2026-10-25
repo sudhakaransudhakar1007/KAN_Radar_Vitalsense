@@ -1,0 +1,1 @@
+window_index,start_time_s,end_time_s,start_sample_idx,end_sample_idx,sample_count,processing_status,prediction_bpm,inference_latency_ms,provenance_note,error_reason

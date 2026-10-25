@@ -1,0 +1,107 @@
+{
+  "KAN_vs_MLP": {
+    "comparison": "KAN vs MLP",
+    "subject_level_n8": {
+      "mean_mae_kan": 2.592,
+      "mean_mae_baseline": 3.365,
+      "mae_difference": -0.773,
+      "paired_ttest": {
+        "t_statistic": -1.521,
+        "p_value": 0.172063,
+        "significant_at_05": false
+      },
+      "wilcoxon_test": {
+        "statistic": 10.0,
+        "p_value": 0.3125,
+        "significant_at_05": false
+      }
+    },
+    "window_level_n80_pseudoreplicated": {
+      "comparison": "KAN vs MLP",
+      "sample_count": 80,
+      "mae_model_a": 2.592,
+      "mae_model_b": 3.365,
+      "mae_difference": -0.773,
+      "paired_ttest": {
+        "t_statistic": -3.6938,
+        "p_value": 0.000405,
+        "significant_at_05": true
+      },
+      "wilcoxon_test": {
+        "statistic": 970.5,
+        "p_value": 0.001838,
+        "significant_at_05": true
+      }
+    }
+  },
+  "KAN_vs_CNN": {
+    "comparison": "KAN vs CNN",
+    "subject_level_n8": {
+      "mean_mae_kan": 2.592,
+      "mean_mae_baseline": 3.035,
+      "mae_difference": -0.443,
+      "paired_ttest": {
+        "t_statistic": -0.3767,
+        "p_value": 0.717532,
+        "significant_at_05": false
+      },
+      "wilcoxon_test": {
+        "statistic": 16.0,
+        "p_value": 0.84375,
+        "significant_at_05": false
+      }
+    },
+    "window_level_n80_pseudoreplicated": {
+      "comparison": "KAN vs CNN",
+      "sample_count": 80,
+      "mae_model_a": 2.592,
+      "mae_model_b": 3.035,
+      "mae_difference": -0.443,
+      "paired_ttest": {
+        "t_statistic": -1.1768,
+        "p_value": 0.242796,
+        "significant_at_05": false
+      },
+      "wilcoxon_test": {
+        "statistic": 1554.5,
+        "p_value": 0.7534,
+        "significant_at_05": false
+      }
+    }
+  },
+  "KAN_vs_MEAN": {
+    "comparison": "KAN vs MEAN",
+    "subject_level_n8": {
+      "mean_mae_kan": 2.592,
+      "mean_mae_baseline": 7.107,
+      "mae_difference": -4.515,
+      "paired_ttest": {
+        "t_statistic": -4.9807,
+        "p_value": 0.0016,
+        "significant_at_05": true
+      },
+      "wilcoxon_test": {
+        "statistic": 0.0,
+        "p_value": 0.007812,
+        "significant_at_05": true
+      }
+    },
+    "window_level_n80_pseudoreplicated": {
+      "comparison": "KAN vs MEAN",
+      "sample_count": 80,
+      "mae_model_a": 2.592,
+      "mae_model_b": 7.107,
+      "mae_difference": -4.515,
+      "paired_ttest": {
+        "t_statistic": -12.5881,
+        "p_value": 0.0,
+        "significant_at_05": true
+      },
+      "wilcoxon_test": {
+        "statistic": 50.0,
+        "p_value": 0.0,
+        "significant_at_05": true
+      }
+    }
+  }
+}

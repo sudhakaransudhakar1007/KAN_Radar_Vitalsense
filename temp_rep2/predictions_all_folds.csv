@@ -1,0 +1,5 @@
+sample_index,subject_id,condition,window_index,reference_hr_bpm,is_synthetic,benchmark_label,fold,y_true_bpm,y_pred_bpm,error_bpm,abs_error_bpm
+0,SYNTH_S01,Resting,0,65.33,True,SYNTHETIC_BENCHMARK,1,65.33,81.65,16.32,16.32
+1,SYNTH_S01,Apnea,1,71.62,True,SYNTHETIC_BENCHMARK,1,71.62,81.75,10.13,10.13
+2,SYNTH_S01,Resting,2,65.72,True,SYNTHETIC_BENCHMARK,1,65.72,81.54,15.82,15.82
+3,SYNTH_S01,Apnea,3,67.01,True,SYNTHETIC_BENCHMARK,1,67.01,81.66,14.65,14.65

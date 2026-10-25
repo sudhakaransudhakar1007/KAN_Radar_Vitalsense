@@ -1,0 +1,19 @@
+path,sha256,size,purpose
+outputs/closure/authors_technical_validation_results.csv,5dcecdf234dd67c270884691a2e9dc7d8011a59a4662491fecdafc90ea7282c3,1023,Summary comparison of technical validation statistics between independent Python replication and authors' published MATLAB results from TechValidation.m
+outputs/closure/stage2j_hashes_before.txt,0fc2cdcb8c4c5a015dfe8bf6dbc1ad76c54ca3eb1fbcdc3c37278b705014b729,17605,Baseline SHA-256 hashes of 154 tracked files before Stage 2J
+outputs/closure/stage2j_record_before_hashes.py,b517a3f7bb449231d23bcb95d3fdcfcfa5fa0c9dc0fd87e0ae6c07e9f4a54c70,1584,Utility script recording baseline SHA-256 hashes before Stage 2J
+outputs/closure/run_ablation_j2.py,5d2e3019f6e68fb4776e95fa3cc3134389f610bc022701a8671ab5be23b9c112,6706,Script executing 2x2 factorial ablation across all 48 recordings
+outputs/closure/respiratory_2x2_ablation.csv,a600c366680caf3cdd7ee9fb3fed98d06c3cc5e61a8f7411f600e7081ad318aa,2846,48-recording data table evaluating 2x2 factorial ablation cells
+outputs/closure/window_indexing_j3.py,40438a92ce93e30acf19ce3a229234f29d3b465f7374496d5a6c9b5ab39e7f83,2770,Simulation script evaluating integer hop vs round-based 23-window formula
+outputs/closure/update_register_j5.py,27534ba249a0c795e19482a9aee1b448e3dfa04499ecd14cb4711d8505a0abf2,2682,Script updating ISS-23 evidence and recommended action per J5
+outputs/closure/generate_j1_table.py,a30b6eb37297059580385a9f1669ed9f8372eb71c8d4bd950d323ec89199ecae,1254,Formatting script generating 48-row J1 comparison table
+outputs/closure/stage2j_verify_after_hashes.py,211202d983612153d19b156e9fda635ea4def5ab78eaf23c53f86316dbb576d7,3051,Verification script comparing before and after hashes for Stage 2J
+outputs/closure/stage2j_hashes_after.txt,97c4f16a68aedab47a28e1386e92b2a866bb84a9a3596f8fef8092fce68386b4,17605,Post-stage SHA-256 hashes of 154 tracked files after Stage 2J
+outputs/closure/stage2h_notes.md,a2622cfb4ce52443be48314d1806dc70d84906db946d31bbc0b450cfbc44ce7b,4078,"Synthesis notes with range-based argument, hardware boundary, and window accounting"
+outputs/closure/stage2k_record_before_hashes.py,474c25461cc39821614ac439aab544e4c39b306c7be59b1dd064e715469b7d52,2009,Utility script recording baseline SHA-256 hashes of 157 tracked files before Stage 2K
+outputs/closure/stage2k_hashes_before.txt,68aa24d9e2bc6e47d8a7d17c35017066908ca0c988646236e63f62a91ffb1713,18038,Baseline SHA-256 hashes of 157 tracked files before Stage 2K
+outputs/closure/run_k1_k2.py,b7dc289d93fef2edb31de11096baf8a2322d5bb95564b55d479ea577ed76a1f3,3936,"Analysis script evaluating K1 provenance, VS10 in-memory test, and K2 aggregate label stats"
+outputs/closure/run_k3_robustness.py,9a8a72ace6906ac4d3236798f132ba91aed8f6a9a1a75dd921d812ae9c6501ae,5732,"Script evaluating K3 respiratory robustness, DC offset ratio, and peak flatness"
+outputs/closure/respiratory_robustness_k3.csv,3a350af6f0279519ac68f660899602d2d62a7e561974eac71dc629209196486a,8953,"48-recording data table of DC ratios, peak flatness ranges, and zero-lag correlations"
+outputs/closure/run_001_status_note.md,74e57cbd1104d4a937cb61f0d120a238050c35be22b1e9184f9ff670769ef5ce,2979,Governance status note classifying run_001 manifests as UNAPPROVED and SUPERSEDED
+outputs/closure/stage2k_file_inventory.csv,75ebe9cd7e3df43ec2aaa378550985026e5b623950d1b0472aec62bc8fef67bd,3438,Inventory of all files created across Stage 2J and 2K with corrected purposes

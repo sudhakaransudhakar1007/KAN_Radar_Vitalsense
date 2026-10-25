@@ -1,0 +1,121 @@
+{
+  "stage": "A",
+  "status": "STAGE_A_COMPLETED_PENDING_APPROVAL",
+  "working_directory": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\kan_radar_HR",
+  "dataset_root": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\data\\VITALSENSE_120_DATASET",
+  "docs_dir": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\data\\VITALSENSE_120_DATASET",
+  "output_dir": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\kan_radar_HR\\outputs\\phase1_audit",
+  "discovery_summary": {
+    "dataset_root": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\data\\VITALSENSE_120_DATASET",
+    "exists": true,
+    "total_mat_files": 96,
+    "total_bytes": 32404660,
+    "total_mb": 30.9,
+    "subject_folder_count": 24,
+    "candidate_subject_folders": [
+      "VS01",
+      "VS02",
+      "VS03",
+      "VS04",
+      "VS05",
+      "VS06",
+      "VS07",
+      "VS08",
+      "VS09",
+      "VS10",
+      "VS11",
+      "VS12",
+      "VS13",
+      "VS14",
+      "VS15",
+      "VS16",
+      "VS17",
+      "VS18",
+      "VS19",
+      "VS20",
+      "VS21",
+      "VS22",
+      "VS23",
+      "VS24"
+    ]
+  },
+  "loaders_used": {
+    "scipy.io.loadmat": 96
+  },
+  "distinct_variable_structures": [
+    "BPD, BPM, BPS, Fs_ecg, Fs_pleth, Fs_resp, HR, RR, ecg_lead2, ecg_lead3, ecg_leadv1, pleth, respiration",
+    "MeasurementInfo, MeasurementInfo[0], MeasurementInfo[1], MeasurementInfo[2], Radar, T_frame, VitalSig"
+  ],
+  "total_mat_files": 96,
+  "total_structure_entries": 1056,
+  "total_candidate_fields": 864,
+  "hypotheses_comparison": {
+    "hypothesis_subjects_24": {
+      "hypothesized": 24,
+      "observed": 24,
+      "status": "VERIFIED",
+      "evidence": "Found 24 folders VS01 through VS24"
+    },
+    "hypothesis_scenarios_resting_apnea": {
+      "hypothesized": "Resting and Apnea scenarios",
+      "observed": "Both Resting and Apnea files present for each subject",
+      "status": "VERIFIED",
+      "evidence": "48 Resting files and 48 Apnea files identified"
+    },
+    "hypothesis_duration_4min": {
+      "hypothesized": "Approximately 4 minutes per subject",
+      "observed": "2 minutes Resting (40,000 samples @ 333.33 Hz) + 2 minutes Apnea (40,000 samples @ 333.33 Hz) = 4 minutes total",
+      "status": "VERIFIED",
+      "evidence": "Documented in README.txt and verified by sample counts and sampling frequency"
+    },
+    "hypothesis_size_31mb": {
+      "hypothesized": "Combined size ~31 MB",
+      "observed": "30.9 MB (32404660 bytes)",
+      "status": "VERIFIED",
+      "evidence": "Exact sum of 96 .mat files equals 30.9 MB"
+    },
+    "hypothesis_radar_parameters_folder": {
+      "hypothesized": "A folder named 'Radar Parameters'",
+      "observed": "NO folder named 'Radar Parameters' exists; it is a worksheet tab inside 'Subject Information.xlsx'",
+      "status": "DISCREPANCY_REFUTED",
+      "evidence": "Filesystem search confirms 0 folders named 'Radar Parameters'. Workbook inspection confirms sheet 2 is named 'Radar Parameters'."
+    },
+    "hypothesis_vitalsig_field": {
+      "hypothesized": "Candidate radar field 'VitalSig'",
+      "observed": "Field 'VitalSig' present in all 48 radar .mat files",
+      "status": "VERIFIED",
+      "evidence": "Documented in Subject Information.xlsx as 'Vital signal' with unit 'mm' (chest displacement)"
+    },
+    "hypothesis_radar_fs_field": {
+      "hypothesized": "Candidate sampling-frequency field 'Radar.fs'",
+      "observed": "Field 'Radar.fs' present in all 48 radar .mat files with value 333.3333333333333",
+      "status": "VERIFIED",
+      "evidence": "Documented in Subject Information.xlsx as 'Sampling frequency' with unit 'Hz'"
+    },
+    "hypothesis_mindray_reference": {
+      "hypothesized": "Candidate reference device name 'Mindray'",
+      "observed": "Mindray reference files present (48 files named *_Mindray.mat)",
+      "status": "VERIFIED",
+      "evidence": "Contains reference HR (120 samples, 1 Hz nominal), ECG (60,000 samples @ 500 Hz), PPG, Respiration"
+    },
+    "hypothesis_synchronization": {
+      "hypothesized": "Reference recordings believed synchronized with radar data",
+      "observed": "Radar and reference data stored in SEPARATE files; equal nominal durations (120s), but no shared hardware clock or trigger timestamp",
+      "status": "UNVERIFIED",
+      "evidence": "Radar has wall-clock timestamp string in MeasurementInfo, Mindray has no timestamp vector. Timing alignment requires validation script."
+    }
+  },
+  "documentation_findings": {
+    "vitalsig_meaning": "Vital signal in millimeters (mm) representing chest displacement",
+    "radar_fs": "333.3333333333333 Hz",
+    "radar_sampling_interval": "0.003 s (3 ms)",
+    "reference_signals": "HR (bpm), ECG Lead II/III/V1 (mV), PPG (%), Respiration (unitless)",
+    "colocation": "Separate files for Radar (*.mat) and Reference (*_Mindray.mat)"
+  },
+  "unresolved_issues": [
+    "Radar and reference signals reside in separate files rather than co-located structures.",
+    "Hardware clock synchronization between radar and Mindray reference monitor is unverified in MAT files.",
+    "Timing offset between radar start and reference start requires verification.",
+    "Reference HR array (120 points) temporal semantics (instantaneous vs rolling 1s window) unverified."
+  ]
+}

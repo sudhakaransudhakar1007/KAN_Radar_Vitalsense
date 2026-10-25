@@ -1,0 +1,54 @@
+<USER_REQUEST>
+STAGE 6C - REPAIR AND RE-VERIFY (follows Stage 6B verify). Mostly read-only.
+
+AUTHORIZED WRITES
+- NEW files under outputs/closure/ only.
+- outputs/closure/pi_decision_list.md: edit ONLY the "Empirical Numbers" and "Consequences" cells named in R7, and append new sections D10-D12 at the end. Never edit, fill, reword or delete any "Decision:" line.
+- Do NOT modify src/, tests/, raw .mat files, outputs/phase2a/, outputs/supervised_dataset/, outputs/closure/spec/, or any other file. No model training, no tensor export, no label regeneration, no run_002. Do not create outputs/closure/investigator_decision.md. Gate stays OPEN.
+- Before any edit to pi_decision_list.md, copy it unchanged to outputs/closure/pi_decision_list_before_6c.md and print its SHA-256.
+
+GLOBAL RULES
+- Any tool output containing "<truncated" or cut off by the terminal must be re-read in slices of at most 100 lines (or written to a file and read in parts) before use. Never infer, reconstruct or fill missing text. For every file read, print the byte count and the line range actually read.
+- Every number you report must come from a script run in this stage, printed together with the script path and the file:line it came from. If it cannot be established, write NOT_VERIFIED. Do not use numbers from earlier reports unless you re-derive them here.
+- Do not print per-window label values. Aggregates, counts and the single worst row identifier are allowed.
+- Print SHA-256 before and after for all 158 tracked files (34 src, 19 tests, 6 outputs/phase2a, 96 raw .mat, 3 run_001 manifests) and for outputs/closure/spec/label_spec_v1.json. Paste outputs verbatim. Complete every item R1..R9 under its own heading; if an item is impossible, say so.
+
+R1. Harmonic vs arithmetic window HR (resolves the 0.0527/0.82 vs 0.1474/2.94 conflict)
+(a) From outputs/supervised_dataset/run_001/accepted_window_manifest.csv (read-only), columns reference_hr_bpm and reference_hr_arithmetic_bpm: row count, mean absolute difference, max absolute difference, identifier of the single row with the max. Aggregates only.
+(b) In memory, recompute both definitions from the ECG for all 1,104 windows (t_start = 5k s, 10 s) using the same cleaning and detector as outputs/closure/stage6_dryrun.py: mean, max, recording and window of the max.
+(c) Print the two disk texts and the proposed text side by side: line 42 of pi_decision_list.md says mean 0.0527 / max 0.82 bpm; the 6B proposal says 0.1474 / 2.94 bpm in VS04_Resting window 16. State which file and which number support each. Do not assume either is right.
+
+R2. Percentages
+Print the file and line that produced "48 windows with |dHR| > 1.0 bpm" (s1_window_hr_comparison.csv or the script). Compute 48/1,056 and 48/1,104 and state which denominator the original used. State whether "4.57%" is supported; if not, give the correct figure and denominator.
+
+R3. HoldingBreath / Talking / Walking grep
+Print the exact script, regex and list of file extensions used in B2. Re-run it as a script file (not an inline placeholder) over the whole project excluding raw data, including .md, .py, .csv, .json, .txt, .yaml, .log. Print the number of files searched and the matches. Also search outputs/closure, src and tests for the strings "0.237", "1.760", "84%", "VS11", "VS04_Holding", "transient sinus arrhythmia" and print file:line hits.
+
+R4. Dry-run audit (stage6_dryrun.py)
+(a) Print file:line for every rule the dry run applies: window length, hop, coverage threshold, max-gap rule, minimum beats, RR range, detector, polarity/absolute-value refinement, boundary-NaN handling. State whether each rule is in label_spec_v1.json or is an undecided rule.
+(b) For all 1,104 windows report the distribution of window RR coverage: min, 1st percentile, count below 90%, count below 85%. State which coverage rule was applied to VS03_Resting window 0 (decision D7, Option B) and whether the dry-run acceptance of all 23 VS03_Resting windows is consistent with that decided rule.
+(c) Min and max RR (s) and HR (bpm) over all valid RR intervals, per scenario, and for VS16_Apnea and VS16_Resting separately. State how many RR intervals the legacy positive-only detector flags below 0.343 s in VS16 versus the canonical detector.
+(d) VS19: for VS19_Apnea and VS19_Resting, run the positive-only detector and the canonical detector on the same cleaned ECG in memory. Report n_peaks of each, fraction matched within 20 ms, and the median and max timing difference in ms of matched peaks. Check whether the claimed 44 ms shift and the claim "46 recordings give identical peak timestamps" are reproduced; report the actual numbers.
+
+R5. Spec versus code (no edits)
+Print the full key list of outputs/closure/spec/label_spec_v1.json (keys and values; it is a small file). For each key give file:line in src/ where it is implemented, or NOT_IMPLEMENTED. Write outputs/closure/spec_gap_register.csv with columns: key, spec_value, code_location, status (IMPLEMENTED / WRAPPER_ONLY / HARDCODED / NOT_IMPLEMENTED / UNDECIDED_EXTRA_RULE), needs_PI_decision (Y/N). Include at least: cleaning_options.fill_boundary, detector_refinement, window max-gap 3.0 s (supervised_dataset_generator.py:96), minimum valid beats 20 (ecg_reference.py:283).
+
+R6. Number provenance for the baselines and the decision list
+(a) Find every file under outputs/closure and outputs/phase2a containing "5.82" or "2.69" and print file:line. If a stage output holds the Stage 5 S2 baselines, print the table verbatim from that file. If none does, write NOT_VERIFIED for both numbers.
+(b) Recompute in memory, diagnostic only, no model fitting: leave-one-subject-out constant-mean predictor MAE and RMSE on the run_001 accepted windows (overall and per scenario) and the zero-shift unpadded radar spectral MAE using the existing estimators. Print window counts. Label as diagnostic on UNAPPROVED run_001 labels.
+(c) Write outputs/closure/pi_decision_claim_check.csv with one row per numeric claim in pi_decision_list.md (all D items, read the full file in slices): decision_id, line, claim_text, source_file, recomputed_value, status (VERIFIED / CONTRADICTED / NOT_VERIFIED). Include lines 18, 30, 42, 54, 66, 78, 90, 102, 115, 127, 139, 151, 163.
+
+R7. Apply corrections to pi_decision_list.md (only after R1-R6)
+Edit only cells whose claim is CONTRADICTED or NOT_VERIFIED in the claim check, using the recomputed numbers and citing the evidence file. In particular: D2b numbers (per R1), the "48 windows" percentage (per R2), D5 Consequences (replace "Option B perpetuates uncorrected baseline wander artifacts" with text consistent with Stage 2K: DC-product hypothesis not supported, rho = -0.1254, p = 0.3956, mechanism NOT_ESTABLISHED), D7b numbers (only if R4(c) supports them). Print old -> new for every edited cell. After editing, extract all lines beginning with "Decision:" or containing "Decision:" before and after and print them side by side with a PASS/FAIL that they are byte-identical.
+
+R8. Runner governance (no src change)
+Confirm src/sync_validation/runner.py:95-96 and 244-245 default output_dir to outputs/phase2a. Write outputs/closure/proposed_runner_guard.diff as a TEXT proposal (not applied) that requires an explicit output_dir and refuses outputs/phase2a unless an explicit flag is given. Write outputs/closure/runner_output_dir_rule.md: until the guard is approved, every run must pass output_dir under outputs/closure/.
+
+R9. New undecided items
+Append to the end of pi_decision_list.md: D10 window-level max-gap rule 3.0 s (keep / drop / change); D11 minimum valid beats 20 (keep / drop / change); D12 runner output_dir guard (apply proposed diff / document only). For each: options, consequence, evidence file. Leave every "Decision: ____" blank.
+
+Finish: run python -m pytest -p no:cacheprovider tests/ -q once and paste the result. Print the hash comparison. STOP and wait for my approval. Do not claim anything verified that is not in this stage's printed output.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-20T12:15:29+05:30.
+</ADDITIONAL_METADATA>

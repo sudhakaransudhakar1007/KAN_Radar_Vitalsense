@@ -1,0 +1,342 @@
+{
+  "timestamp_utc": "2026-10-22T15:16:47.183748+00:00",
+  "verdict": "NO-GO",
+  "gate_status": "OPEN",
+  "is_authorized_for_phase2c": false,
+  "summary": {
+    "PASS": 10,
+    "FAIL": 6,
+    "WARN": 0
+  },
+  "checks": [
+    {
+      "check_id": "GOV_DECISION_D13",
+      "category": "GOVERNANCE",
+      "description": "Decision D13: Window-Level Maximum RR Gap Rule (3.0 s)",
+      "status": "FAIL",
+      "message": "Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+      "details": {
+        "option": "___________________________",
+        "name": "___________________________",
+        "signature": "___________________________",
+        "date": "___________________________"
+      }
+    },
+    {
+      "check_id": "GOV_DECISION_D14",
+      "category": "GOVERNANCE",
+      "description": "Decision D14: Minimum Valid Beats Per Recording (20 Beats)",
+      "status": "FAIL",
+      "message": "Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+      "details": {
+        "option": "___________________________",
+        "name": "___________________________",
+        "signature": "___________________________",
+        "date": "___________________________"
+      }
+    },
+    {
+      "check_id": "GOV_DECISION_D15",
+      "category": "GOVERNANCE",
+      "description": "Decision D15: Pipeline Runner Default output_dir Guard",
+      "status": "FAIL",
+      "message": "Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+      "details": {
+        "option": "___________________________",
+        "name": "___________________________",
+        "signature": "___________________________",
+        "date": "___________________________"
+      }
+    },
+    {
+      "check_id": "GOV_LABEL_SPEC_APPROVAL",
+      "category": "GOVERNANCE",
+      "description": "Label Specification Approval Field (label_spec_v1.json)",
+      "status": "FAIL",
+      "message": "label_spec_v1.json 'approved_by' field is empty or blank.",
+      "details": {
+        "approved_by": ""
+      }
+    },
+    {
+      "check_id": "GOV_LABEL_SPEC_HASH",
+      "category": "GOVERNANCE",
+      "description": "Label Specification Canonical Content Hash",
+      "status": "PASS",
+      "message": "Canonical content SHA-256 matched: ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+      "details": {
+        "calculated_canonical_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+        "internal_spec_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+        "expected_canonical_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44"
+      }
+    },
+    {
+      "check_id": "GOV_HARDWARE_TIMING_ACKNOWLEDGEMENT",
+      "category": "GOVERNANCE",
+      "description": "Mandatory Hardware Timing Limitation (UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0)",
+      "status": "FAIL",
+      "message": "PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+      "details": {
+        "option": null,
+        "name": "___________________________",
+        "signature": "___________________________",
+        "date": "___________________________"
+      }
+    },
+    {
+      "check_id": "GOV_PHASE2A_RECONCILIATION_ADDENDUM",
+      "category": "GOVERNANCE",
+      "description": "Phase 2A Reconciliation Addendum (phase2a_reconciliation_addendum.md)",
+      "status": "PASS",
+      "message": "Addendum present; tracks all 28 Phase 2A issues.",
+      "details": {
+        "file_path": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\kan_radar_HR\\outputs\\closure\\phase2a_reconciliation_addendum.md",
+        "size_bytes": 20018
+      }
+    },
+    {
+      "check_id": "GOV_PHASE2A_GATE_CLOSURE_AUTH",
+      "category": "GOVERNANCE",
+      "description": "Phase 2A Gate Closure Authorization",
+      "status": "FAIL",
+      "message": "PI marked gate closure as NOT AUTHORIZED.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+      "details": {
+        "option": "[ ] AUTHORIZED    [ ] NOT AUTHORIZED",
+        "name": "___________________________",
+        "signature": "___________________________",
+        "date": "___________________________"
+      }
+    },
+    {
+      "check_id": "LABEL_SPEC_INTEGRITY",
+      "category": "LABEL_SPEC",
+      "description": "Label Specification Cryptographic Digest & Parameters",
+      "status": "PASS",
+      "message": "Canonical hash matched (ae5c67808b9a...), window parameters and SQI validated.",
+      "details": {
+        "canonical_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+        "expected_canonical_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+        "raw_sha256": "abc3920f9b4df3e7c8f4804c250a8f9f7d0482ee9fed67bdcd298a285cc11b12",
+        "expected_baseline_raw_sha256": "a0f7a85e439fd8d5c5b2eb4636fc9b551aed71c12dd1af1c057685fb60314da8",
+        "spec_version": "1.0.0",
+        "window_duration_seconds": 10.0,
+        "hop_duration_seconds": 5.0,
+        "num_windows": 23,
+        "hardware_timing_limitation": "UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0",
+        "monitor_hr_status": "FORBIDDEN"
+      }
+    },
+    {
+      "check_id": "PHASE2A_ADDENDUM_INTEGRITY",
+      "category": "RECONCILIATION",
+      "description": "Phase 2A Reconciliation Addendum (28 Issues Audit)",
+      "status": "PASS",
+      "message": "Addendum presents complete audit for all 28 issues (12 resolved, 9 documented limitations, 7 open).",
+      "details": {
+        "total_issues_tracked": 28,
+        "path": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\kan_radar_HR\\outputs\\closure\\phase2a_reconciliation_addendum.md"
+      }
+    },
+    {
+      "check_id": "PHASE2A_BASELINE_HASH",
+      "category": "RECONCILIATION",
+      "description": "Phase 2A Step 2B Consistency Audit File Cryptographic Hash",
+      "status": "PASS",
+      "message": "Phase 2A baseline hash verified bit-for-bit (6c4391bf1f8b...).",
+      "details": {
+        "sha256": "6c4391bf1f8b96c95ec42e5767803f32644f67dc3562c8f8d630a6dfccbdfb1f"
+      }
+    },
+    {
+      "check_id": "SOURCE_DATASET_INVENTORY",
+      "category": "SOURCE_DATA",
+      "description": "VITALSENSE Raw Dataset Inventory (48 Radar + 48 Reference ECG Files)",
+      "status": "PASS",
+      "message": "Complete cohort verified: 48 radar recordings and 48 reference ECG MAT files.",
+      "details": {
+        "dataset_dir": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\data\\VITALSENSE_120_DATASET",
+        "total_mat_files": 96,
+        "radar_files_count": 48,
+        "reference_files_count": 48,
+        "expected_radar_count": 48,
+        "expected_ref_count": 48
+      }
+    },
+    {
+      "check_id": "OUTPUT_ISOLATION_RUN_002",
+      "category": "ISOLATION",
+      "description": "Output Isolation: outputs/supervised_dataset/run_002 Non-Existence",
+      "status": "PASS",
+      "message": "Confirmed: outputs/supervised_dataset/run_002 does not exist (isolation preserved).",
+      "details": {
+        "path": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\kan_radar_HR\\outputs\\supervised_dataset\\run_002"
+      }
+    },
+    {
+      "check_id": "OUTPUT_ISOLATION_REAL_TRAINING",
+      "category": "ISOLATION",
+      "description": "Output Isolation: outputs/phase5/run_real_001 Non-Existence",
+      "status": "PASS",
+      "message": "Confirmed: outputs/phase5/run_real_001 does not exist (training isolation preserved).",
+      "details": {
+        "path": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\kan_radar_HR\\outputs\\phase5\\run_real_001"
+      }
+    },
+    {
+      "check_id": "WINDOW_DENOMINATOR_CONSISTENCY",
+      "category": "WINDOWING",
+      "description": "Candidate Window Denominator Budget Consistency (1,104 Windows)",
+      "status": "PASS",
+      "message": "Denominator verified: exactly 1104 candidate windows across 48 recordings (1104 accepted under SQI).",
+      "details": {
+        "recordings_count": 48,
+        "expected_recordings": 48,
+        "total_candidate_windows": 1104,
+        "expected_candidate_windows": 1104,
+        "accepted_windows": 1104,
+        "rejected_windows": 0
+      }
+    },
+    {
+      "check_id": "HARDWARE_TIMING_LIMITATION_GUARD",
+      "category": "HARDWARE_LIMITATION",
+      "description": "Mandatory Hardware Timing Disclaimer Guard (UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0)",
+      "status": "PASS",
+      "message": "Hardware timing limitation UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0 strictly documented in spec and intake protocol.",
+      "details": {
+        "mandated_limitation_code": "UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0",
+        "present_in_label_spec": true,
+        "present_in_intake_protocol": true
+      }
+    }
+  ],
+  "blockers": [
+    "[GOV_DECISION_D13] Decision D13: Window-Level Maximum RR Gap Rule (3.0 s): Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+    "[GOV_DECISION_D14] Decision D14: Minimum Valid Beats Per Recording (20 Beats): Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+    "[GOV_DECISION_D15] Decision D15: Pipeline Runner Default output_dir Guard: Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+    "[GOV_LABEL_SPEC_APPROVAL] Label Specification Approval Field (label_spec_v1.json): label_spec_v1.json 'approved_by' field is empty or blank.",
+    "[GOV_HARDWARE_TIMING_ACKNOWLEDGEMENT] Mandatory Hardware Timing Limitation (UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0): PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+    "[GOV_PHASE2A_GATE_CLOSURE_AUTH] Phase 2A Gate Closure Authorization: PI marked gate closure as NOT AUTHORIZED.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder."
+  ],
+  "warnings": [],
+  "pi_signoff_report": {
+    "timestamp_utc": "2026-10-22T15:16:47.169732Z",
+    "overall_status": "BLOCKED",
+    "is_ready_for_gate_closure": false,
+    "summary": {
+      "PRESENT": 2,
+      "MISSING": 6,
+      "INVALID": 0,
+      "MISMATCH": 0,
+      "NOT_VERIFIABLE": 0
+    },
+    "items": [
+      {
+        "item_id": "DECISION_D13",
+        "description": "Decision D13: Window-Level Maximum RR Gap Rule (3.0 s)",
+        "status": "MISSING",
+        "details": {
+          "option": "___________________________",
+          "name": "___________________________",
+          "signature": "___________________________",
+          "date": "___________________________"
+        },
+        "diagnostics": "Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+        "authenticity_notice": "SYNTACTIC_CHECK_ONLY: Software cannot verify human signature authenticity."
+      },
+      {
+        "item_id": "DECISION_D14",
+        "description": "Decision D14: Minimum Valid Beats Per Recording (20 Beats)",
+        "status": "MISSING",
+        "details": {
+          "option": "___________________________",
+          "name": "___________________________",
+          "signature": "___________________________",
+          "date": "___________________________"
+        },
+        "diagnostics": "Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+        "authenticity_notice": "SYNTACTIC_CHECK_ONLY: Software cannot verify human signature authenticity."
+      },
+      {
+        "item_id": "DECISION_D15",
+        "description": "Decision D15: Pipeline Runner Default output_dir Guard",
+        "status": "MISSING",
+        "details": {
+          "option": "___________________________",
+          "name": "___________________________",
+          "signature": "___________________________",
+          "date": "___________________________"
+        },
+        "diagnostics": "Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+        "authenticity_notice": "SYNTACTIC_CHECK_ONLY: Software cannot verify human signature authenticity."
+      },
+      {
+        "item_id": "LABEL_SPEC_APPROVAL",
+        "description": "Label Specification Approval Field (label_spec_v1.json)",
+        "status": "MISSING",
+        "details": {
+          "approved_by": ""
+        },
+        "diagnostics": "label_spec_v1.json 'approved_by' field is empty or blank.",
+        "authenticity_notice": "SYNTACTIC_CHECK_ONLY: Software cannot verify human signature authenticity."
+      },
+      {
+        "item_id": "LABEL_SPEC_HASH",
+        "description": "Label Specification Canonical Content Hash",
+        "status": "PRESENT",
+        "details": {
+          "calculated_canonical_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+          "internal_spec_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+          "expected_canonical_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44"
+        },
+        "diagnostics": "Canonical content SHA-256 matched: ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+        "authenticity_notice": "SYNTACTIC_CHECK_ONLY: Software cannot verify human signature authenticity."
+      },
+      {
+        "item_id": "HARDWARE_TIMING_ACKNOWLEDGEMENT",
+        "description": "Mandatory Hardware Timing Limitation (UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0)",
+        "status": "MISSING",
+        "details": {
+          "option": null,
+          "name": "___________________________",
+          "signature": "___________________________",
+          "date": "___________________________"
+        },
+        "diagnostics": "PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+        "authenticity_notice": "SYNTACTIC_CHECK_ONLY: Software cannot verify human signature authenticity."
+      },
+      {
+        "item_id": "PHASE2A_RECONCILIATION_ADDENDUM",
+        "description": "Phase 2A Reconciliation Addendum (phase2a_reconciliation_addendum.md)",
+        "status": "PRESENT",
+        "details": {
+          "file_path": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\kan_radar_HR\\outputs\\closure\\phase2a_reconciliation_addendum.md",
+          "size_bytes": 20018
+        },
+        "diagnostics": "Addendum present; tracks all 28 Phase 2A issues.",
+        "authenticity_notice": "SYNTACTIC_CHECK_ONLY: Software cannot verify human signature authenticity."
+      },
+      {
+        "item_id": "PHASE2A_GATE_CLOSURE_AUTH",
+        "description": "Phase 2A Gate Closure Authorization",
+        "status": "MISSING",
+        "details": {
+          "option": "[ ] AUTHORIZED    [ ] NOT AUTHORIZED",
+          "name": "___________________________",
+          "signature": "___________________________",
+          "date": "___________________________"
+        },
+        "diagnostics": "PI marked gate closure as NOT AUTHORIZED.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+        "authenticity_notice": "SYNTACTIC_CHECK_ONLY: Software cannot verify human signature authenticity."
+      }
+    ],
+    "blockers": [
+      "[DECISION_D13] Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+      "[DECISION_D14] Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+      "[DECISION_D15] Option selection is missing or placeholder.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+      "[LABEL_SPEC_APPROVAL] label_spec_v1.json 'approved_by' field is empty or blank.",
+      "[HARDWARE_TIMING_ACKNOWLEDGEMENT] PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder.",
+      "[PHASE2A_GATE_CLOSURE_AUTH] PI marked gate closure as NOT AUTHORIZED.; PI Name is missing or placeholder.; PI Signature is missing or placeholder.; Date error: Date is empty or placeholder."
+    ]
+  }
+}

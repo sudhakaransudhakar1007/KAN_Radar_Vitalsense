@@ -1,0 +1,25 @@
+{
+  "run_id": "synthetic_mean",
+  "mode": "synthetic",
+  "seed": 42,
+  "epochs": 15,
+  "batch_size": 16,
+  "learning_rate": 0.005,
+  "weight_decay": 0.0001,
+  "patience": 5,
+  "model_type": "mean",
+  "latent_dim": 16,
+  "hidden_dim": 8,
+  "grid_size": 5,
+  "spline_order": 3,
+  "grid_range": [
+    -1.0,
+    1.0
+  ],
+  "feature_scaling": "standard",
+  "target_normalization": true,
+  "val_subjects_count": 2,
+  "synthetic_subjects_count": 8,
+  "synthetic_windows_per_subject": 10,
+  "output_dir": "outputs/phase6b/synthetic_mean"
+}

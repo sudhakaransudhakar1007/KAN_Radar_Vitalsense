@@ -1,0 +1,44 @@
+--- a/src/sync_validation/runner.py
++++ b/src/sync_validation/runner.py
+@@ -84,6 +84,7 @@
+ def run_full_validation(
+     dataset_dir: Optional[Path] = None,
+     output_dir: Optional[Path] = None,
++    allow_phase2a_overwrite: bool = False,
+ ) -> Tuple[pd.DataFrame, Dict[str, Any]]:
+     """Execute synchronization validation across all 48 recording pairs.
+ 
+@@ -93,7 +94,13 @@
+         (results_dataframe, summary_statistics_dict)
+     """
+     if output_dir is None:
+-        output_dir = Path("outputs/phase2a")
++        raise ValueError(
++            "output_dir must be explicitly specified. Defaulting to 'outputs/phase2a' is forbidden."
++        )
++    if Path(output_dir).resolve() == Path("outputs/phase2a").resolve() and not allow_phase2a_overwrite:
++        raise PermissionError(
++            "Writing directly to immutable 'outputs/phase2a' is blocked by governance guard. Pass allow_phase2a_overwrite=True to override."
++        )
+     output_dir.mkdir(parents=True, exist_ok=True)
+     radar_files = sorted(glob.glob(str(dataset_dir / "VS*" / "VS*.mat")))
+@@ -236,7 +243,8 @@
+ 
+ def run_sync_validation_pipeline(
+     dataset_dir: Optional[Path] = None,
+     output_dir: Optional[Path] = None,
++    allow_phase2a_overwrite: bool = False,
+ ) -> Tuple[pd.DataFrame, Dict[str, Any]]:
+     """Execute complete synchronization validation with optional output directory parameter.
+ 
+@@ -242,5 +250,9 @@
+     """
+     if output_dir is None:
+-        output_dir = Path("outputs/phase2a")
++        raise ValueError(
++            "output_dir must be explicitly specified. Pass an explicit path under 'outputs/closure/'."
++        )
++    if Path(output_dir).resolve() == Path("outputs/phase2a").resolve() and not allow_phase2a_overwrite:
++        raise PermissionError(
++            "Writing directly to immutable 'outputs/phase2a' is blocked by governance guard. Pass allow_phase2a_overwrite=True to override."
++        )

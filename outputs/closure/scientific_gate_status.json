@@ -1,0 +1,111 @@
+{
+  "timestamp_utc": "2026-10-22T15:16:30Z",
+  "project_title": "A Subject-Independent Kolmogorov-Arnold Network (KAN)-Based Framework for Non-Contact Heart-Rate Estimation from 120-GHz FMCW Radar Signals",
+  "governance": {
+    "scientific_gate_status": "OPEN",
+    "gate_authority_document": "outputs/phase2a/step2b_consistency_audit.md",
+    "reconciliation_status": "RECONCILIATION_PARTIAL",
+    "reconciliation_addendum": "outputs/closure/phase2a_reconciliation_addendum.md",
+    "preflight_verdict": "NO-GO",
+    "is_authorized_for_phase2c": false,
+    "is_authorized_for_real_training": false,
+    "hardware_timing_limitation": "UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0"
+  },
+  "output_isolation": {
+    "real_data_label_generation_path": "outputs/supervised_dataset/run_002",
+    "real_data_label_generation_exists": false,
+    "real_data_label_generation_status": "BLOCKED",
+    "real_data_training_path": "outputs/phase5/run_real_001",
+    "real_data_training_exists": false,
+    "real_data_training_status": "BLOCKED"
+  },
+  "immutable_baselines": {
+    "outputs/phase2a/step2b_consistency_audit.md": {
+      "sha256": "6c4391bf1f8b96c95ec42e5767803f32644f67dc3562c8f8d630a6dfccbdfb1f",
+      "status": "VERIFIED_MATCH",
+      "size_bytes": 106546
+    },
+    "outputs/phase2a/sync_validation_results.csv": {
+      "sha256": "6f4fda369c1a7e6d0954bf422456d69c41a44de2657f1308b30f11f76b5dcb10",
+      "status": "VERIFIED_MATCH",
+      "size_bytes": 30731
+    },
+    "outputs/closure/pi_decision_list.md": {
+      "sha256": "fe4d7d39fdcb651baf59ef5f820f3ed9ae6afd5b133b87c805f8bc4a90180363",
+      "status": "VERIFIED_MATCH",
+      "size_bytes": 27158
+    },
+    "outputs/closure/spec/label_spec_v1.json (raw)": {
+      "sha256": "a0f7a85e439fd8d5c5b2eb4636fc9b551aed71c12dd1af1c057685fb60314da8",
+      "status": "VERIFIED_MATCH",
+      "size_bytes": 2746
+    },
+    "outputs/closure/spec/label_spec_v1.json (canonical)": {
+      "sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+      "status": "VERIFIED_MATCH"
+    }
+  },
+  "pending_pi_decisions": {
+    "DECISION_D13": {
+      "description": "Window-level maximum RR gap rule (3.0 s threshold)",
+      "recommendation": "Option A (Retain 3.0s)",
+      "status": "PENDING_PI_SIGNATURE"
+    },
+    "DECISION_D14": {
+      "description": "Minimum valid beats per recording (20 beats threshold)",
+      "recommendation": "Option A (Retain 20 beats)",
+      "status": "PENDING_PI_SIGNATURE"
+    },
+    "DECISION_D15": {
+      "description": "Pipeline runner default output_dir guard",
+      "recommendation": "Option A (Enforce explicit output_dir & block phase2a)",
+      "status": "PENDING_PI_SIGNATURE"
+    },
+    "LABEL_SPEC_APPROVAL": {
+      "description": "Formal approval of label_spec_v1.json",
+      "approved_by_field_status": "BLANK",
+      "canonical_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+      "status": "PENDING_PI_SIGNATURE"
+    },
+    "HARDWARE_TIMING_ACKNOWLEDGEMENT": {
+      "description": "Mandatory acknowledgement of UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0",
+      "status": "PENDING_PI_SIGNATURE"
+    },
+    "PHASE2A_GATE_CLOSURE_AUTH": {
+      "description": "Formal PI authorization transitioning gate from OPEN to CLOSED",
+      "status": "PENDING_PI_SIGNATURE"
+    }
+  },
+  "test_suite_status": {
+    "platform": "win32",
+    "python_version": "3.10.11",
+    "pytest_version": "9.1.1",
+    "total_tests": 207,
+    "passed_tests": 207,
+    "failed_tests": 0,
+    "pass_rate_pct": 100.0
+  },
+  "reconciled_discrepancies": {
+    "vs13_apnea_win16_target_hr": {
+      "verified_ground_truth_bpm": 54.41,
+      "arithmetic_mean_bpm": 54.46,
+      "unclipped_coverage_pct": 110.28,
+      "clipped_coverage_pct": 100.0,
+      "conflicting_figure": 76.17,
+      "reconciliation_explanation": "76.17 BPM was an accidental narrative transposition with VS10_Apnea Window 11 (which is 76.17 BPM). VS13_Apnea Window 16 is verified as 54.41 BPM."
+    },
+    "synthetic_benchmark_metrics": {
+      "kan_mae_bpm": 2.592,
+      "cnn_mae_bpm": 3.035,
+      "mlp_mae_bpm": 3.365,
+      "mean_mae_bpm": 7.107,
+      "conflicting_figures": "KAN 3.55, CNN 4.70, MLP 4.29",
+      "reconciliation_explanation": "Saved fold predictions on disk verify KAN MAE 2.592 BPM, CNN 3.035 BPM, MLP 3.365 BPM. The figures 3.55, 4.70, 4.29 were ungrounded conversational residue with zero presence on disk."
+    },
+    "label_spec_hash_duality": {
+      "raw_sha256": "a0f7a85e439fd8d5c5b2eb4636fc9b551aed71c12dd1af1c057685fb60314da8",
+      "canonical_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44",
+      "reconciliation_explanation": "Raw digest covers pre-signed file bytes. Canonical digest covers sorted JSON excluding approved_by and spec_sha256, ensuring PI signature does not alter specification digest."
+    }
+  }
+}

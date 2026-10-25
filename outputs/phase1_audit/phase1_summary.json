@@ -1,0 +1,46 @@
+{
+  "stage": "B",
+  "status": "PHASE_1_COMPLETE",
+  "aggregate_counts": {
+    "count_1_subject_folders_found": 24,
+    "count_2_subjects_with_readable_radar": 24,
+    "count_3_subjects_with_usable_reference": 24,
+    "count_4_subjects_potentially_eligible_provisional": 24,
+    "total_candidate_subjects": 24
+  },
+  "radar_recordings_total": 48,
+  "reference_recordings_total": 48,
+  "total_candidate_pairings": 48,
+  "pairing_status_breakdown": {
+    "PROBABLE_MATCH": 48,
+    "VERIFIED_MATCH": 0,
+    "AMBIGUOUS_MATCH": 0,
+    "UNMATCHED_RADAR": 0,
+    "UNMATCHED_REFERENCE": 0
+  },
+  "quality_findings_summary": {
+    "total_checks_executed": 816,
+    "passed_checks": 767,
+    "warning_checks": 1,
+    "failed_checks": 0,
+    "unverified_checks": 48
+  },
+  "synchronization_summary": {
+    "total_evaluated_pairs": 48,
+    "synchronization_status": "UNVERIFIED_TIMING",
+    "duration_match_count": 48,
+    "shared_clock_evidence": "NONE_IN_MAT_FILES"
+  },
+  "readiness_verdict": {
+    "dataset_access": "VERIFIED",
+    "file_inventory_completeness": "VERIFIED",
+    "radar_signal_interpretation": "VERIFIED",
+    "sampling_frequency_verification": "VERIFIED",
+    "reference_hr_availability": "VERIFIED",
+    "radar_reference_matching": "PROBABLE_MATCH",
+    "temporal_synchronization": "UNVERIFIED_TIMING",
+    "subject_completeness": "VERIFIED",
+    "signal_quality": "VERIFIED_WITH_WARNINGS",
+    "phase2_model_training_readiness": "BLOCKED_PENDING_SYNCHRONIZATION_ALIGNMENT"
+  }
+}

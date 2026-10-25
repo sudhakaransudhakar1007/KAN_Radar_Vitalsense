@@ -1,0 +1,41 @@
+{
+  "window_duration_seconds": 10.0,
+  "hop_duration_seconds": 5.0,
+  "radar_sampling_rate_nominal_hz": 333.3333,
+  "ecg_sampling_rate_nominal_hz": 500.0,
+  "preprocessing_filter": {
+    "name": "cardiac_bandpass_butterworth",
+    "low_cutoff_hz": 0.8,
+    "high_cutoff_hz": 3.0,
+    "order": 3,
+    "implementation": "scipy.signal.filtfilt",
+    "phase_distortion": "zero_phase"
+  },
+  "reference_hr_method": {
+    "ecg_channel": "ecg_lead2",
+    "qrs_detector": "Pan-Tompkins_5-15Hz",
+    "hr_formula": "60.0 / mean(RR_intervals)",
+    "physiological_hr_bounds_bpm": [
+      35.0,
+      185.0
+    ],
+    "physiological_rr_bounds_s": [
+      0.3243,
+      1.7143
+    ]
+  },
+  "sqi_criteria": {
+    "min_rr_coverage_pct": 85.0,
+    "max_rr_gap_seconds": 3.0
+  },
+  "synchronization_convention": {
+    "assumed_relative_offset_seconds": 0.0,
+    "timing_status": "UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0",
+    "monitor_hr_array_status": "DISQUALIFIED_FROM_SUPERVISED_TARGETS"
+  },
+  "governance_gates": {
+    "phase2a_finalization_gate_status": "OPEN",
+    "authorization_granted": false,
+    "supervised_label_generation_permitted": false
+  }
+}

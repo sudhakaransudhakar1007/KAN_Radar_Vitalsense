@@ -1,0 +1,26 @@
+{
+  "run_id": "run_synthetic_001",
+  "benchmark_status": "SYNTHETIC_BENCHMARK",
+  "folds_evaluated": 1,
+  "mean_mae_bpm": 14.228,
+  "std_mae_bpm": 0.0,
+  "mean_rmse_bpm": 14.436,
+  "mean_bias_bpm": 14.228,
+  "mean_pearson_r": 0.8019,
+  "overall_within_3bpm_pct": 0.0,
+  "overall_within_5bpm_pct": 0.0,
+  "fold_breakdown": [
+    {
+      "fold": 1,
+      "test_subject": "SYNTH_S01",
+      "mae_bpm": 14.228,
+      "rmse_bpm": 14.436,
+      "bias_bpm": 14.228,
+      "pearson_r": 0.8019,
+      "within_3bpm_pct": 0.0,
+      "within_5bpm_pct": 0.0,
+      "best_epoch": 1,
+      "best_val_loss": 3.825889
+    }
+  ]
+}

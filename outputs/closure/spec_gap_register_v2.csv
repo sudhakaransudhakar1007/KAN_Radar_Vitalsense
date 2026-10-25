@@ -1,0 +1,51 @@
+key,spec_value,code_location,status,needs_PI_decision
+spec_version,1.0.0,src/phase3/supervised_dataset_generator.py:101,IMPLEMENTED,N
+created_at,2026-10-20T11:03:02+05:30,outputs/closure/spec/label_spec_v1.json:3,IMPLEMENTED,N
+approved_by,,outputs/closure/spec/label_spec_v1.json:4,IMPLEMENTED,N
+governance.decision_file,outputs/closure/pi_decision_list.md,src/phase3/supervised_dataset_generator.py:106-135,IMPLEMENTED,N
+governance.status,FROZEN_PRE_TRAINING,outputs/closure/spec/label_spec_v1.json:7,IMPLEMENTED,N
+governance.hardware_timing_limitation,UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0,src/phase3/supervised_dataset_generator.py:255,HARDCODED,N
+governance.threshold_provenance,UNVERIFIED_PROVENANCE,outputs/closure/spec/label_spec_v1.json:9,IMPLEMENTED,N
+governance.prespecified_before_training,True,outputs/closure/spec/label_spec_v1.json:10,IMPLEMENTED,N
+windowing.window_duration_seconds,10.0,src/phase3/supervised_dataset_generator.py:65,IMPLEMENTED,N
+windowing.hop_duration_seconds,5.0,src/phase3/supervised_dataset_generator.py:66,IMPLEMENTED,N
+windowing.num_windows,23,src/phase3/supervised_dataset_generator.py:67,IMPLEMENTED,N
+windowing.radar_sample_start_formula,round(k * 5.0 * fs_radar),src/phase3/supervised_dataset_generator.py:270,IMPLEMENTED,N
+windowing.radar_sample_end_formula,round(k * 5.0 * fs_radar) + round(10.0 * fs_radar),src/phase3/supervised_dataset_generator.py:271,IMPLEMENTED,N
+windowing.ecg_time_start_formula,"round(k * 5.0, 3)",src/phase3/supervised_dataset_generator.py:274,IMPLEMENTED,N
+windowing.ecg_time_end_formula,"round(round(k * 5.0, 3) + 10.0, 3)",src/phase3/supervised_dataset_generator.py:275,IMPLEMENTED,N
+windowing.ecg_sample_start_formula,"int(round(round(k * 5.0, 3) * fs_ecg))",src/phase3/supervised_dataset_generator.py:276,IMPLEMENTED,N
+windowing.ecg_sample_end_formula,"int(round(round(round(k * 5.0, 3) + 10.0, 3) * fs_ecg))",src/phase3/supervised_dataset_generator.py:277,IMPLEMENTED,N
+reference_source.lead,ecg_lead2,src/phase3/supervised_dataset_generator.py:255,HARDCODED,N
+reference_source.label_source,ECG Lead II R-peaks at nominal zero shift,src/phase3/supervised_dataset_generator.py:255-265,IMPLEMENTED,N
+reference_source.monitor_hr_allowed,False,src/phase3/supervised_dataset_generator.py:48-52,IMPLEMENTED,N
+reference_source.monitor_hr_status,FORBIDDEN,src/phase3/supervised_dataset_generator.py:52,IMPLEMENTED,N
+signal_processing.cleaning_module,src.sync_validation.ecg_processor,src/phase3/ecg_reference.py:16,WRAPPER_ONLY,N
+signal_processing.cleaning_function,clean_ecg_nans,src/sync_validation/ecg_processor.py:96; src/phase3/ecg_reference.py:22,IMPLEMENTED,N
+signal_processing.cleaning_options.only_isolated,True,src/sync_validation/ecg_processor.py:98; src/phase3/ecg_reference.py:24,IMPLEMENTED,N
+signal_processing.cleaning_options.fill_boundary,True,src/phase3/ecg_reference.py:25 (NOT in ecg_processor.py),IMPLEMENTED_IN_PHASE3_WRAPPER,N
+signal_processing.detector_module,src.sync_validation.ecg_processor,src/phase3/ecg_reference.py:16,WRAPPER_ONLY,N
+signal_processing.detector_function,detect_r_peaks,src/sync_validation/ecg_processor.py:124; src/phase3/ecg_reference.py:37,IMPLEMENTED,N
+signal_processing.detector_refinement,abs_refinement (np.argmax(np.abs(ecg_filt))),src/sync_validation/ecg_processor.py:203,IMPLEMENTED,N
+signal_processing.fs_radar_nominal,333.3333333333333,src/phase3/supervised_dataset_generator.py:60,IMPLEMENTED,N
+signal_processing.fs_ecg_nominal,500.0,src/phase3/supervised_dataset_generator.py:61,IMPLEMENTED,N
+label_definition.hr_formula,60.0 / mean(valid_rr_in_window),src/phase3/supervised_dataset_generator.py:216,IMPLEMENTED,N
+label_definition.hr_type,HARMONIC_MEAN,src/phase3/supervised_dataset_generator.py:217,IMPLEMENTED,N
+label_definition.interval_assignment_rule,"midpoint in [t_start, t_end)",src/phase3/supervised_dataset_generator.py:190-194,IMPLEMENTED,N
+label_definition.interval_assignment_formula,mids = (p_times[:-1] + p_times[1:]) / 2.0; (mids >= t_start) & (mids < t_end),src/phase3/supervised_dataset_generator.py:190-194,IMPLEMENTED,N
+label_definition.min_phys_bpm,35.0,src/phase3/supervised_dataset_generator.py:93,IMPLEMENTED,N
+label_definition.max_phys_bpm,185.0,src/phase3/supervised_dataset_generator.py:94,IMPLEMENTED,N
+label_definition.min_phys_rr_s,0.32432432432432434,src/phase3/supervised_dataset_generator.py:95,IMPLEMENTED,N
+label_definition.max_phys_rr_s,1.7142857142857142,src/phase3/supervised_dataset_generator.py:96,IMPLEMENTED,N
+window_quality_gating.outlier_rule,STRICT_ALL_OR_NOTHING (reject window if any non-physiological RR interval midpoint falls inside it),src/phase3/supervised_dataset_generator.py:200-202,IMPLEMENTED,N
+window_quality_gating.min_covered_duration_s,8.0,src/phase3/supervised_dataset_generator.py:209,IMPLEMENTED,N
+window_quality_gating.coverage_rule,covered_duration > 8.0 s (strict),src/phase3/supervised_dataset_generator.py:209,IMPLEMENTED,N
+window_quality_gating.max_rr_gap_threshold_s,3.0,"src/phase3/supervised_dataset_generator.py:98,213",UNDECIDED_EXTRA_RULE,Y
+recording_level_sqi.min_coverage_ratio,0.85,"src/sync_validation/ecg_processor.py:276,297-298",IMPLEMENTED,N
+recording_level_sqi.max_rr_gap_s,3.0,"src/sync_validation/ecg_processor.py:290,297-298",IMPLEMENTED,N
+recording_level_sqi.amplitude_stability,NOT_ASSESSED,"src/sync_validation/ecg_processor.py:298,342",IMPLEMENTED,N
+recording_level_sqi.verdict_rule,"SQI_PARTIAL, never PASS","src/sync_validation/ecg_processor.py:298,342",IMPLEMENTED,N
+seed_policy.cardiac_surrogate_seed,42,src/sync_validation/cardiac_radar_validator.py:165,IMPLEMENTED,N
+seed_policy.rng_implementation,np.random.default_rng(seed),src/sync_validation/cardiac_radar_validator.py:166,IMPLEMENTED,N
+spec_sha256,ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44,src/phase3/supervised_dataset_generator.py:100-135,IMPLEMENTED,N
+recording_sqi.min_valid_beats_20,20 beats,src/phase3/ecg_reference.py:283,UNDECIDED_EXTRA_RULE,Y

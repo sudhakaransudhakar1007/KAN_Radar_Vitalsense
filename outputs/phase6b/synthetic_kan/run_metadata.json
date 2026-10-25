@@ -1,0 +1,17 @@
+{
+  "run_id": "synthetic_kan",
+  "mode": "synthetic",
+  "benchmark_type": "SYNTHETIC_BENCHMARK",
+  "execution_timestamp_utc": "2026-10-21T10:54:31.185395+00:00",
+  "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.12.4",
+  "git_commit": "UNKNOWN",
+  "git_dirty": false,
+  "random_seeds": {
+    "configured_seed": 42,
+    "pythonhashseed": "42"
+  },
+  "scientific_gate_status": "BYPASS_SYNTHETIC_FIXTURE_ONLY"
+}

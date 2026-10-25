@@ -1,0 +1,6 @@
+{
+  "train_mean": 68.61219970703125,
+  "train_std": 6.404811909755119,
+  "sample_count": 50,
+  "is_fitted": true
+}

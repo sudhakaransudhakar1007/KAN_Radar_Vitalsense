@@ -1,0 +1,45 @@
+{
+  "stage": "SUPERVISED_DATASET_GENERATION_IMPLEMENTATION",
+  "run_id": "run_001",
+  "execution_timestamp_utc": "2026-10-15T15:13:05.164707+00:00",
+  "execution_status": "DIAGNOSTIC_DRY_RUN_COMPLETED_PERSISTENT_ARRAYS_BLOCKED",
+  "software_environment": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "platform": "win32"
+  },
+  "input_file_inventory": {
+    "dataset_directory": "C:\\Users\\admin\\OneDrive\\Desktop\\KAN algrithm FRAME work\\data\\VITALSENSE_120_DATASET",
+    "radar_mat_files_count": 48,
+    "reference_mat_files_count": 48,
+    "candidate_pairs_count": 48
+  },
+  "window_counts": {
+    "total_candidate_windows": 1056,
+    "accepted_windows_count": 1029,
+    "rejected_windows_count": 27,
+    "candidate_windows_per_recording": 22,
+    "trailing_tail_excluded_samples": 1660,
+    "trailing_tail_excluded_seconds": 4.98
+  },
+  "gate_enforcement": {
+    "phase2a_gate_status": "OPEN",
+    "authorization_granted": false,
+    "is_blocked": true,
+    "blocker_reason": "Supervised persistent dataset generation (binary arrays / ML tensors) is BLOCKED: Phase 2A Finalization Gate status is 'OPEN' (must be formally CLOSED), and authorization_granted is 'False'. In compliance with project execution rules, candidate, accepted, and rejected window manifests were generated in dry-run diagnostic mode, but persistent supervised training arrays were withheld."
+  },
+  "output_files": [
+    "run_manifest.json",
+    "dataset_generation_config.json",
+    "implementation_summary.md",
+    "candidate_window_manifest.csv",
+    "accepted_window_manifest.csv",
+    "rejected_window_manifest.csv",
+    "reference_label_audit.md",
+    "synchronization_assumptions_record.md",
+    "dataset_validation_report.md",
+    "test_execution_record.md",
+    "error_log.md",
+    "final_stage_report.md"
+  ]
+}

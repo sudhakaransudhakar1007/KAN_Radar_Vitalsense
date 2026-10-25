@@ -1,0 +1,69 @@
+{
+  "spec_version": "1.0.0",
+  "created_at": "2026-10-20T11:03:02+05:30",
+  "approved_by": "",
+  "governance": {
+    "decision_file": "outputs/closure/pi_decision_list.md",
+    "status": "FROZEN_PRE_TRAINING",
+    "hardware_timing_limitation": "UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0",
+    "threshold_provenance": "UNVERIFIED_PROVENANCE",
+    "prespecified_before_training": true
+  },
+  "windowing": {
+    "window_duration_seconds": 10.0,
+    "hop_duration_seconds": 5.0,
+    "num_windows": 23,
+    "radar_sample_start_formula": "round(k * 5.0 * fs_radar)",
+    "radar_sample_end_formula": "round(k * 5.0 * fs_radar) + round(10.0 * fs_radar)",
+    "ecg_time_start_formula": "round(k * 5.0, 3)",
+    "ecg_time_end_formula": "round(round(k * 5.0, 3) + 10.0, 3)",
+    "ecg_sample_start_formula": "int(round(round(k * 5.0, 3) * fs_ecg))",
+    "ecg_sample_end_formula": "int(round(round(round(k * 5.0, 3) + 10.0, 3) * fs_ecg))"
+  },
+  "reference_source": {
+    "lead": "ecg_lead2",
+    "label_source": "ECG Lead II R-peaks at nominal zero shift",
+    "monitor_hr_allowed": false,
+    "monitor_hr_status": "FORBIDDEN"
+  },
+  "signal_processing": {
+    "cleaning_module": "src.sync_validation.ecg_processor",
+    "cleaning_function": "clean_ecg_nans",
+    "cleaning_options": {
+      "only_isolated": true,
+      "fill_boundary": true
+    },
+    "detector_module": "src.sync_validation.ecg_processor",
+    "detector_function": "detect_r_peaks",
+    "detector_refinement": "abs_refinement (np.argmax(np.abs(ecg_filt)))",
+    "fs_radar_nominal": 333.3333333333333,
+    "fs_ecg_nominal": 500.0
+  },
+  "label_definition": {
+    "hr_formula": "60.0 / mean(valid_rr_in_window)",
+    "hr_type": "HARMONIC_MEAN",
+    "interval_assignment_rule": "midpoint in [t_start, t_end)",
+    "interval_assignment_formula": "mids = (p_times[:-1] + p_times[1:]) / 2.0; (mids >= t_start) & (mids < t_end)",
+    "min_phys_bpm": 35.0,
+    "max_phys_bpm": 185.0,
+    "min_phys_rr_s": 0.32432432432432434,
+    "max_phys_rr_s": 1.7142857142857142
+  },
+  "window_quality_gating": {
+    "outlier_rule": "STRICT_ALL_OR_NOTHING (reject window if any non-physiological RR interval midpoint falls inside it)",
+    "min_covered_duration_s": 8.0,
+    "coverage_rule": "covered_duration > 8.0 s (strict)",
+    "max_rr_gap_threshold_s": 3.0
+  },
+  "recording_level_sqi": {
+    "min_coverage_ratio": 0.85,
+    "max_rr_gap_s": 3.0,
+    "amplitude_stability": "NOT_ASSESSED",
+    "verdict_rule": "SQI_PARTIAL, never PASS"
+  },
+  "seed_policy": {
+    "cardiac_surrogate_seed": 42,
+    "rng_implementation": "np.random.default_rng(seed)"
+  },
+  "spec_sha256": "ae5c67808b9ad8ae8f6e40f89434242e88a6de67b7d57d8478c6256075708f44"
+}

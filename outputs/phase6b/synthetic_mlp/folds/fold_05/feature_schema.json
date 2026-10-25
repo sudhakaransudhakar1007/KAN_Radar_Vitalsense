@@ -1,0 +1,6 @@
+{
+  "runtime_input_dim": 3333,
+  "latent_dim": 16,
+  "scaling_type": "standard",
+  "temporal_length_samples": 3333
+}

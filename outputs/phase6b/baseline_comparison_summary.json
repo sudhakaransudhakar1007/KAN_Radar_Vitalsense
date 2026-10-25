@@ -1,0 +1,181 @@
+{
+  "benchmark_label": "SYNTHETIC_BENCHMARK",
+  "dataset_seed": 42,
+  "subjects_count": 8,
+  "windows_per_subject": 10,
+  "models_evaluated": [
+    "KAN",
+    "MLP",
+    "CNN",
+    "MEAN"
+  ],
+  "pooled_metrics": [
+    {
+      "model": "KAN",
+      "mae_bpm": 2.592,
+      "rmse_bpm": 4.144,
+      "bias_bpm": -0.761,
+      "medae_bpm": 1.105,
+      "max_error_bpm": 15.14,
+      "pearson_r": 0.8818,
+      "spearman_rho": 0.9458,
+      "within_3bpm_pct": 70.0,
+      "within_5bpm_pct": 82.5,
+      "within_10bpm_pct": 95.0,
+      "bland_altman_lower_loa": -8.796,
+      "bland_altman_upper_loa": 7.273
+    },
+    {
+      "model": "MLP",
+      "mae_bpm": 3.365,
+      "rmse_bpm": 4.606,
+      "bias_bpm": 0.04,
+      "medae_bpm": 2.255,
+      "max_error_bpm": 15.19,
+      "pearson_r": 0.8517,
+      "spearman_rho": 0.8823,
+      "within_3bpm_pct": 61.25,
+      "within_5bpm_pct": 72.5,
+      "within_10bpm_pct": 96.25,
+      "bland_altman_lower_loa": -9.045,
+      "bland_altman_upper_loa": 9.125
+    },
+    {
+      "model": "CNN",
+      "mae_bpm": 3.035,
+      "rmse_bpm": 5.063,
+      "bias_bpm": 1.131,
+      "medae_bpm": 1.385,
+      "max_error_bpm": 15.17,
+      "pearson_r": 0.8027,
+      "spearman_rho": 0.8645,
+      "within_3bpm_pct": 75.0,
+      "within_5bpm_pct": 78.75,
+      "within_10bpm_pct": 88.75,
+      "bland_altman_lower_loa": -8.603,
+      "bland_altman_upper_loa": 10.864
+    },
+    {
+      "model": "MEAN",
+      "mae_bpm": 7.107,
+      "rmse_bpm": 8.841,
+      "bias_bpm": -0.001,
+      "medae_bpm": 6.025,
+      "max_error_bpm": 22.66,
+      "pearson_r": -0.2894,
+      "spearman_rho": -0.4151,
+      "within_3bpm_pct": 30.0,
+      "within_5bpm_pct": 40.0,
+      "within_10bpm_pct": 73.75,
+      "bland_altman_lower_loa": -17.437,
+      "bland_altman_upper_loa": 17.436
+    }
+  ],
+  "statistical_comparisons": {
+    "KAN_vs_MLP": {
+      "comparison": "KAN vs MLP",
+      "subject_level_n8": {
+        "mean_mae_kan": 2.592,
+        "mean_mae_baseline": 3.365,
+        "mae_difference": -0.773,
+        "paired_ttest": {
+          "t_statistic": -1.521,
+          "p_value": 0.172063,
+          "significant_at_05": false
+        },
+        "wilcoxon_test": {
+          "statistic": 10.0,
+          "p_value": 0.3125,
+          "significant_at_05": false
+        }
+      },
+      "window_level_n80_pseudoreplicated": {
+        "comparison": "KAN vs MLP",
+        "sample_count": 80,
+        "mae_model_a": 2.592,
+        "mae_model_b": 3.365,
+        "mae_difference": -0.773,
+        "paired_ttest": {
+          "t_statistic": -3.6938,
+          "p_value": 0.000405,
+          "significant_at_05": true
+        },
+        "wilcoxon_test": {
+          "statistic": 970.5,
+          "p_value": 0.001838,
+          "significant_at_05": true
+        }
+      }
+    },
+    "KAN_vs_CNN": {
+      "comparison": "KAN vs CNN",
+      "subject_level_n8": {
+        "mean_mae_kan": 2.592,
+        "mean_mae_baseline": 3.035,
+        "mae_difference": -0.443,
+        "paired_ttest": {
+          "t_statistic": -0.3767,
+          "p_value": 0.717532,
+          "significant_at_05": false
+        },
+        "wilcoxon_test": {
+          "statistic": 16.0,
+          "p_value": 0.84375,
+          "significant_at_05": false
+        }
+      },
+      "window_level_n80_pseudoreplicated": {
+        "comparison": "KAN vs CNN",
+        "sample_count": 80,
+        "mae_model_a": 2.592,
+        "mae_model_b": 3.035,
+        "mae_difference": -0.443,
+        "paired_ttest": {
+          "t_statistic": -1.1768,
+          "p_value": 0.242796,
+          "significant_at_05": false
+        },
+        "wilcoxon_test": {
+          "statistic": 1554.5,
+          "p_value": 0.7534,
+          "significant_at_05": false
+        }
+      }
+    },
+    "KAN_vs_MEAN": {
+      "comparison": "KAN vs MEAN",
+      "subject_level_n8": {
+        "mean_mae_kan": 2.592,
+        "mean_mae_baseline": 7.107,
+        "mae_difference": -4.515,
+        "paired_ttest": {
+          "t_statistic": -4.9807,
+          "p_value": 0.0016,
+          "significant_at_05": true
+        },
+        "wilcoxon_test": {
+          "statistic": 0.0,
+          "p_value": 0.007812,
+          "significant_at_05": true
+        }
+      },
+      "window_level_n80_pseudoreplicated": {
+        "comparison": "KAN vs MEAN",
+        "sample_count": 80,
+        "mae_model_a": 2.592,
+        "mae_model_b": 7.107,
+        "mae_difference": -4.515,
+        "paired_ttest": {
+          "t_statistic": -12.5881,
+          "p_value": 0.0,
+          "significant_at_05": true
+        },
+        "wilcoxon_test": {
+          "statistic": 50.0,
+          "p_value": 0.0,
+          "significant_at_05": true
+        }
+      }
+    }
+  }
+}

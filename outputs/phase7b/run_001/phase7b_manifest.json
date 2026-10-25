@@ -1,0 +1,142 @@
+{
+  "run_id": "run_001",
+  "phase": "Phase 7B — Contradiction Resolution & Independent Evidence Audit",
+  "audit_timestamp_iso": "2026-10-17T20:26:00+05:30",
+  "audit_timestamp_utc": "2026-10-17T14:56:00Z",
+  "repository_identifier": "c:/Users/admin/OneDrive/Desktop/KAN algrithm FRAME work/kan_radar_HR",
+  "audit_environment": {
+    "os": "Windows 11 Enterprise (10.0.26100)",
+    "python_version": "3.11.9",
+    "tensorflow_version": "2.16.1",
+    "pytest_version": "8.4.1",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.13.1",
+    "shell": "PowerShell 5.1"
+  },
+  "governance_status": {
+    "phase2a_gate_status": "OPEN",
+    "phase2a_gate_source": "outputs/phase2a/step2b_consistency_audit.md",
+    "signed_investigator_closure_exists": false,
+    "real_data_training_authorized": false,
+    "real_data_training_executed_in_phase7b": false,
+    "supervised_tensors_exported_in_phase7b": false
+  },
+  "final_verdict": "BLOCKED — GOVERNANCE GATE OPEN",
+  "contradictions_audited": {
+    "contradiction_a_window_duration_and_samples": {
+      "claimed_in_phase7": "3.0s window, 1000 radar samples @ 333.33Hz, 1500 ECG samples @ 500Hz, 44 windows/recording",
+      "verified_source_code_truth": "10.0s window, 5.0s hop, 3333 radar samples/window, 1667 radar samples/hop, 5000 ECG samples/window, 22 complete windows/recording (48 recordings x 22 = 1056 candidate windows)",
+      "status": "RESOLVED_REPORTING_ERROR"
+    },
+    "contradiction_b_kan_parameter_count": {
+      "claimed_in_phase7": "Single-layer KAN head 128->1 with 128 base + 1024 spline + 1 bias = 1153 params vs 1360 claimed, 1280 untrainable grid params",
+      "verified_source_code_truth": "Two-layer KAN head (16->8->1): Layer 1 (16->8) = 1280 trainable params, Layer 2 (8->1) = 80 trainable params, total head = 1360 trainable params, 0 non-trainable params, grid is tf.constant buffer of shape (12,); Full KAN = 3360 backbone + 1360 head = 4720 params",
+      "status": "RESOLVED_REPORTING_ERROR"
+    },
+    "contradiction_c_mlp_parameter_count": {
+      "claimed_in_phase7": "MLP 128->24->8->1 with layer counts 3096, 200, 9 = 3505 (arithmetic 3305 != 3505)",
+      "verified_source_code_truth": "ConvFeatureExtractor backbone (3360 params) + 2-layer Dense head (16->8->1): Dense1 (16->8) = 136 params, Dense2 (8->1) = 9 params; head total = 145 params; full MLP = 3360 + 145 = 3505 params",
+      "status": "RESOLVED_REPORTING_ERROR"
+    },
+    "contradiction_d_cnn_parameter_count": {
+      "claimed_in_phase7": "Standard 4-layer conv net downsampling to 128 totaling 3360 params (hypothetical architecture would be >60,000 params)",
+      "verified_source_code_truth": "3-layer Conv1D downsampling from 3333 to 16 latent features: conv1 (128 params) -> conv2 (1424 params) -> conv3 (1808 params) = 3360 backbone params; readout Dense(16, 1) = 17 params; full CNN = 3377 params",
+      "status": "RESOLVED_REPORTING_ERROR"
+    },
+    "contradiction_e_filter_causality": {
+      "claimed_in_phase7": "Filtering described as causal in executive summary and zero-phase filtfilt in technical audit",
+      "verified_source_code_truth": "Strictly non-causal zero-phase 4th-order Butterworth bandpass (0.8-3.0 Hz) using scipy.signal.filtfilt on entire 120s recording before windowing; future samples influence current output; valid for retrospective study, unsuitable for real-time streaming without causal IIR adaptation",
+      "status": "RESOLVED_TERMINOLOGY_ERROR"
+    },
+    "contradiction_f_synthetic_test_failure_and_reproducibility": {
+      "claimed_in_phase7": "Phase 7 executive reported 87.5% within 5 BPM; detailed investigation reported 68.8% for 10 epochs seed 42; 75% mentioned elsewhere",
+      "verified_source_code_truth": "Sample quantization on N=16 test samples yields a discrete 6.25% lattice (11/16=68.75%, 12/16=75.0%, 14/16=87.5%, 16/16=100.0%); meeting >=90% requires >=15/16 (93.75%); CPU thread non-determinism and 10-epoch unconverged basin explain variance; at 15 epochs, optimizer reaches asymptotic convergence (MAE 0.45-1.18 BPM, 100.0% within 5 BPM)",
+      "status": "RESOLVED_DISCRETIZATION_AND_THREADING_ISOLATED"
+    }
+  },
+  "dataset_reconciliation_summary": {
+    "candidate_windows": 1056,
+    "accepted_windows": 1029,
+    "rejected_windows": 27,
+    "accepted_condition_distribution": {
+      "Apnea": 526,
+      "Resting": 503
+    },
+    "rejected_condition_distribution": {
+      "Resting": 25,
+      "Apnea": 2
+    },
+    "rejection_reasons": {
+      "ECG_DELIMITER_INTERPOLATION_FAILED_OR_BOUNDARY_NAN": 22,
+      "NON_PHYSIOLOGICAL_RR_INTERVAL_IN_WINDOW": 4,
+      "RR_COVERAGE_BELOW_85_PCT": 1
+    },
+    "loso_integrity": {
+      "folds_count": 24,
+      "subjects_count": 24,
+      "subject_leakage_detected": false,
+      "total_test_windows_across_folds": 1029,
+      "normalization_isolation_verified": true
+    }
+  },
+  "commands_actually_executed": [
+    "powershell Test-Path outputs/phase7b",
+    "powershell New-Item -ItemType Directory -Path outputs/phase7b/run_001 -Force",
+    "python scratch/verify_params.py",
+    "python scratch/inspect_candidate_manifest.py",
+    "python scratch/test_reproducibility.py",
+    "python scratch/test_session_seed.py",
+    "python scratch/verify_dataset_loso.py",
+    "python scratch/generate_provenance.py"
+  ],
+  "files_modified_in_phase7b": [],
+  "files_not_modified": [
+    "src/data/make_dataset.py",
+    "src/data/ecg_processing.py",
+    "src/data/radar_processing.py",
+    "src/features/feature_extraction.py",
+    "src/models/kan.py",
+    "src/models/baselines.py",
+    "src/evaluation/loso.py",
+    "src/evaluation/metrics.py",
+    "src/pipelines/training_pipeline.py",
+    "src/kan/*",
+    "src/phase3/*",
+    "tests/*",
+    "outputs/phase1/*",
+    "outputs/phase2a/*",
+    "outputs/phase3/*",
+    "outputs/phase4/*",
+    "outputs/phase5/*",
+    "outputs/phase6/*",
+    "outputs/phase7/*"
+  ],
+  "reports_generated": [
+    "outputs/phase7b/run_001/phase7b_executive_verdict.md",
+    "outputs/phase7b/run_001/window_duration_and_indexing_audit.md",
+    "outputs/phase7b/run_001/kan_parameter_count_reconciliation.md",
+    "outputs/phase7b/run_001/mlp_parameter_count_reconciliation.md",
+    "outputs/phase7b/run_001/cnn_parameter_count_reconciliation.md",
+    "outputs/phase7b/run_001/filter_causality_and_edge_effects_audit.md",
+    "outputs/phase7b/run_001/synthetic_test_reproducibility_audit.md",
+    "outputs/phase7b/run_001/dataset_and_loso_consistency_audit.md",
+    "outputs/phase7b/run_001/governance_and_synchronization_status.md",
+    "outputs/phase7b/run_001/contradiction_register.csv",
+    "outputs/phase7b/run_001/artifact_provenance_manifest.csv",
+    "outputs/phase7b/run_001/phase7b_manifest.json"
+  ],
+  "known_limitations": [
+    {
+      "code": "UNVERIFIED_HARDWARE_TIMING_NOMINAL_T0",
+      "description": "Hardware synchronization between radar FMCW transceiver and medical ECG monitor lacks common electronic triggers; nominal T0=0 operational convention is assumed."
+    },
+    {
+      "code": "RETROSPECTIVE_ZERO_PHASE_FILTERING",
+      "description": "Filtering is non-causal zero-phase forward-backward filtfilt on continuous recordings; valid for retrospective ML benchmark, but real-time streaming requires causal IIR or FIR filter redesign."
+    },
+    {
+      "code": "TEST_SAMPLE_QUANTIZATION_LATTICE",
+      "description": "Integration test on N=16 synthetic samples has coarse 6.25% discrete quantization; future test suites should verify software invariants rather than strict stochastic thresholds."
+    }
+  ]
+}

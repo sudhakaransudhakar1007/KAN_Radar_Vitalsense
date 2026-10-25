@@ -1,0 +1,177 @@
+=== STAGE 6C R3 SEARCH RESULTS ===
+Script: C:\Users\admin\OneDrive\Desktop\KAN algrithm FRAME work\kan_radar_HR\outputs\closure\stage6c_r3_search.py
+Workspace root: C:\Users\admin\OneDrive\Desktop\KAN algrithm FRAME work
+Regex B2: HoldingBreath|Talking|Walking
+Extensions searched: ('.md', '.py', '.csv', '.json', '.txt', '.yaml', '.log')
+
+=== 1. B2 Pattern Search (Whole Project excluding raw data) ===
+Total files searched: 291
+Total matches found: 1
+  kan_radar_HR/outputs/closure/stage6c_prompt_full.txt:46: R3. HoldingBreath / Talking / Walking grep
+
+=== 2. Extra Strings Search (outputs/closure, src, tests) ===
+Total files searched in target dirs: 136
+
+Pattern '0.237': 1 match(es)
+  kan_radar_HR/outputs/closure/stage6c_prompt_full.txt:48: Print the exact script, regex and list of file extensions used in B2. Re-run it as a script file (not an inline placehol
+
+Pattern '1.760': 2 match(es)
+  kan_radar_HR/outputs/closure/stage6c_prompt_full.txt:48: Print the exact script, regex and list of file extensions used in B2. Re-run it as a script file (not an inline placehol
+  kan_radar_HR/outputs/closure/v2/sync_validation_results.csv:15: VS07,Resting,data\VITALSENSE_120_DATASET\VS07\VS07_Resting.mat,data\VITALSENSE_120_DATASET\VS07\VS07_Resting_Mindray.mat
+
+Pattern '84%': 2 match(es)
+  kan_radar_HR/outputs/closure/stage2v_verification.md:704: | Coverage 84% (against 85% threshold) | 0.84 | 1.0 | SQI_FAIL | False | UNSPECIFIED / NOT VALIDATED | Coverage 84.0% (n
+  kan_radar_HR/outputs/closure/stage6c_prompt_full.txt:48: Print the exact script, regex and list of file extensions used in B2. Re-run it as a script file (not an inline placehol
+
+Pattern 'VS11': 145 match(es)
+  kan_radar_HR/outputs/closure/authors_method_lags.csv:22: VS11_Apnea,Apnea,0,0.0,1,240000,240000
+  kan_radar_HR/outputs/closure/authors_method_lags.csv:23: VS11_Resting,Resting,14,7.0,1,240000,240000
+  kan_radar_HR/outputs/closure/authors_technical_validation_results.csv:22: VS11,Apnea,0.0,0
+  kan_radar_HR/outputs/closure/authors_technical_validation_results.csv:23: VS11,Resting,7.0,14
+  kan_radar_HR/outputs/closure/respiratory_2x2_ablation.csv:22: VS11_Apnea,VS11,Apnea,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+  kan_radar_HR/outputs/closure/respiratory_2x2_ablation.csv:23: VS11_Resting,VS11,Resting,7.0,6.5,7.0,7.0,6.5,6.5,6.5
+  kan_radar_HR/outputs/closure/respiratory_robustness_k3.csv:22: VS11_Apnea,Apnea,-0.4138425453455888,1.1889762918943119,1.0968664634800918,23.150761258358116,-0.01649113031315609,0.0,0
+  kan_radar_HR/outputs/closure/respiratory_robustness_k3.csv:23: VS11_Resting,Resting,-0.0850064442746282,0.4652850133434189,0.7651980770965359,24.70938965953117,-0.005657761526298624,7
+  kan_radar_HR/outputs/closure/s1_recording_peak_comparison.csv:22: VS11_Apnea,Apnea,112,112,1.0
+  kan_radar_HR/outputs/closure/s1_recording_peak_comparison.csv:23: VS11_Resting,Resting,115,115,1.0
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:442: VS11_Apnea,Apnea,0,55.81,55.83,True,NONE,55.83227820255528
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:443: VS11_Apnea,Apnea,1,55.07,55.08,True,NONE,54.90761915287147
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:444: VS11_Apnea,Apnea,2,55.8,55.82,True,NONE,55.821310418710794
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:445: VS11_Apnea,Apnea,3,55.96,55.98,True,NONE,56.0874590896815
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:446: VS11_Apnea,Apnea,4,56.68,56.71,True,NONE,56.606033985724984
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:447: VS11_Apnea,Apnea,5,56.84,56.88,True,NONE,56.760229568267235
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:448: VS11_Apnea,Apnea,6,55.36,55.38,True,NONE,55.68719137455261
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:449: VS11_Apnea,Apnea,7,54.89,54.91,True,NONE,55.06735672782968
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:450: VS11_Apnea,Apnea,8,54.21,54.22,True,NONE,54.28987974703149
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:451: VS11_Apnea,Apnea,9,54.38,54.42,True,NONE,53.92199769929675
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:452: VS11_Apnea,Apnea,10,55.77,55.82,True,NONE,55.82285307561646
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:453: VS11_Apnea,Apnea,11,56.84,56.86,True,NONE,56.96453757577957
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:454: VS11_Apnea,Apnea,12,56.93,56.95,True,NONE,57.057132608519936
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:455: VS11_Apnea,Apnea,13,56.3,56.33,True,NONE,56.333421255612734
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:456: VS11_Apnea,Apnea,14,54.67,54.69,True,NONE,54.920510807848665
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:457: VS11_Apnea,Apnea,15,55.01,55.06,True,NONE,54.57661032682885
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:458: VS11_Apnea,Apnea,16,56.68,56.74,True,NONE,56.45031840623831
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:459: VS11_Apnea,Apnea,17,57.0,57.03,True,NONE,57.26331882391779
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:460: VS11_Apnea,Apnea,18,57.41,57.44,True,NONE,57.39066129358255
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:461: VS11_Apnea,Apnea,19,58.0,58.02,True,NONE,58.16700650120375
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:462: VS11_Apnea,Apnea,20,57.17,57.18,True,NONE,57.25707883220948
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:463: VS11_Apnea,Apnea,21,57.05,57.06,True,NONE,57.02291346841091
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:464: VS11_Resting,Resting,0,60.08,60.1,True,NONE,60.198951213272025
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:465: VS11_Resting,Resting,1,59.49,59.51,True,NONE,59.6974255012792
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:466: VS11_Resting,Resting,2,58.67,58.68,True,NONE,58.75246573300045
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:467: VS11_Resting,Resting,3,58.42,58.42,True,NONE,58.487412193959884
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:468: VS11_Resting,Resting,4,57.98,57.98,True,NONE,58.03396533718048
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:469: VS11_Resting,Resting,5,57.52,57.52,True,NONE,57.47608055073468
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:470: VS11_Resting,Resting,6,58.0,58.02,True,NONE,58.143242429014634
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:471: VS11_Resting,Resting,7,57.9,57.93,True,NONE,57.89932577913385
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:472: VS11_Resting,Resting,8,58.12,58.15,True,NONE,58.00625098205505
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:473: VS11_Resting,Resting,9,58.1,58.14,True,NONE,58.148172060751925
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:474: VS11_Resting,Resting,10,56.78,56.8,True,NONE,56.95883757131776
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:475: VS11_Resting,Resting,11,58.29,58.35,True,NONE,58.34808386545459
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:476: VS11_Resting,Resting,12,58.51,58.56,True,NONE,58.6147490775249
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:477: VS11_Resting,Resting,13,56.93,56.94,True,NONE,57.03129070654448
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:478: VS11_Resting,Resting,14,57.12,57.14,True,NONE,57.22750092526506
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:479: VS11_Resting,Resting,15,57.37,57.4,True,NONE,57.2681242586728
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:480: VS11_Resting,Resting,16,57.11,57.13,True,NONE,57.041214140274455
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:481: VS11_Resting,Resting,17,56.67,56.68,True,NONE,56.7075802967785
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:482: VS11_Resting,Resting,18,56.0,56.01,True,NONE,56.20241867191919
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:483: VS11_Resting,Resting,19,55.7,55.71,True,NONE,55.817560747288695
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:484: VS11_Resting,Resting,20,55.62,55.63,True,NONE,55.63225808573251
+  kan_radar_HR/outputs/closure/s1_window_hr_comparison.csv:485: VS11_Resting,Resting,21,55.95,55.96,True,NONE,55.90657427212754
+  kan_radar_HR/outputs/closure/stage0_snapshot.csv:99: radar_mat,../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat,4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f
+  kan_radar_HR/outputs/closure/stage0_snapshot.csv:100: mindray_mat,../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray.mat,515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09e
+  kan_radar_HR/outputs/closure/stage0_snapshot.csv:101: radar_mat,../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat,727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a
+  kan_radar_HR/outputs/closure/stage0_snapshot.csv:102: mindray_mat,../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindray.mat,05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499e
+  kan_radar_HR/outputs/closure/stage2f_hashes_after.txt:107: 4981052C4A34B1707E687321F205A6EF02F7C162BD2513E26D5805BA10F9CD35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage2f_hashes_after.txt:108: 515A45FBFE55A4A4725672AE47E82FD91CFA32640738CD09EFB95A1A4A3EA751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage2f_hashes_after.txt:109: 727FFAA27F2CA9AFEC633D01158C49CC34092FC64BBC0E3ADA2FEBB3A550632D  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage2f_hashes_after.txt:110: 05F4A9DD4453D05C45E59E767E63E7CD40D62537DC1499EBD0A2A259ADB2F135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage2f_hashes_before.txt:106: 4981052C4A34B1707E687321F205A6EF02F7C162BD2513E26D5805BA10F9CD35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage2f_hashes_before.txt:107: 515A45FBFE55A4A4725672AE47E82FD91CFA32640738CD09EFB95A1A4A3EA751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage2f_hashes_before.txt:108: 727FFAA27F2CA9AFEC633D01158C49CC34092FC64BBC0E3ADA2FEBB3A550632D  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage2f_hashes_before.txt:109: 05F4A9DD4453D05C45E59E767E63E7CD40D62537DC1499EBD0A2A259ADB2F135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage2g_hashes_after.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  C:/Users/admin/OneDrive/Desktop/KAN algrithm FRAME wor
+  kan_radar_HR/outputs/closure/stage2g_hashes_after.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  C:/Users/admin/OneDrive/Desktop/KAN algrithm FRAME wor
+  kan_radar_HR/outputs/closure/stage2g_hashes_after.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  C:/Users/admin/OneDrive/Desktop/KAN algrithm FRAME wor
+  kan_radar_HR/outputs/closure/stage2g_hashes_after.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  C:/Users/admin/OneDrive/Desktop/KAN algrithm FRAME wor
+  kan_radar_HR/outputs/closure/stage2g_hashes_before.txt:107: 4981052C4A34B1707E687321F205A6EF02F7C162BD2513E26D5805BA10F9CD35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage2g_hashes_before.txt:108: 515A45FBFE55A4A4725672AE47E82FD91CFA32640738CD09EFB95A1A4A3EA751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage2g_hashes_before.txt:109: 727FFAA27F2CA9AFEC633D01158C49CC34092FC64BBC0E3ADA2FEBB3A550632D  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage2g_hashes_before.txt:110: 05F4A9DD4453D05C45E59E767E63E7CD40D62537DC1499EBD0A2A259ADB2F135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage2hi_hashes_after.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage2hi_hashes_after.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage2hi_hashes_after.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage2hi_hashes_after.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage2hi_hashes_before.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage2hi_hashes_before.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage2hi_hashes_before.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage2hi_hashes_before.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage2j_hashes_after.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage2j_hashes_after.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage2j_hashes_after.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage2j_hashes_after.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage2j_hashes_before.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage2j_hashes_before.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage2j_hashes_before.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage2j_hashes_before.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage2k_hashes_after.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage2k_hashes_after.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage2k_hashes_after.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage2k_hashes_after.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage2k_hashes_before.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage2k_hashes_before.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage2k_hashes_before.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage2k_hashes_before.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage5b_hashes_after.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage5b_hashes_after.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage5b_hashes_after.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage5b_hashes_after.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage5b_hashes_before.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage5b_hashes_before.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage5b_hashes_before.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage5b_hashes_before.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage5_hashes_after.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage5_hashes_after.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ../data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage5_hashes_after.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage5_hashes_after.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ../data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage5_hashes_before.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  ..\data\VITALSENSE_120_DATASET\VS11\VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage5_hashes_before.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  ..\data\VITALSENSE_120_DATASET\VS11\VS11_Apnea_Mindray
+  kan_radar_HR/outputs/closure/stage5_hashes_before.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  ..\data\VITALSENSE_120_DATASET\VS11\VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage5_hashes_before.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  ..\data\VITALSENSE_120_DATASET\VS11\VS11_Resting_Mindr
+  kan_radar_HR/outputs/closure/stage6b_hashes_after.txt:107: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  data\VITALSENSE_120_DATASET\VS11\VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage6b_hashes_after.txt:108: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  data\VITALSENSE_120_DATASET\VS11\VS11_Apnea_Mindray.ma
+  kan_radar_HR/outputs/closure/stage6b_hashes_after.txt:109: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  data\VITALSENSE_120_DATASET\VS11\VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage6b_hashes_after.txt:110: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  data\VITALSENSE_120_DATASET\VS11\VS11_Resting_Mindray.
+  kan_radar_HR/outputs/closure/stage6b_hashes_before.txt:107: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  data\VITALSENSE_120_DATASET\VS11\VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage6b_hashes_before.txt:108: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  data\VITALSENSE_120_DATASET\VS11\VS11_Apnea_Mindray.ma
+  kan_radar_HR/outputs/closure/stage6b_hashes_before.txt:109: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  data\VITALSENSE_120_DATASET\VS11\VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage6b_hashes_before.txt:110: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  data\VITALSENSE_120_DATASET\VS11\VS11_Resting_Mindray.
+  kan_radar_HR/outputs/closure/stage6c_hashes_before.txt:107: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  data/VITALSENSE_120_DATASET/VS11/VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage6c_hashes_before.txt:108: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  data/VITALSENSE_120_DATASET/VS11/VS11_Apnea_Mindray.ma
+  kan_radar_HR/outputs/closure/stage6c_hashes_before.txt:109: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  data/VITALSENSE_120_DATASET/VS11/VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage6c_hashes_before.txt:110: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  data/VITALSENSE_120_DATASET/VS11/VS11_Resting_Mindray.
+  kan_radar_HR/outputs/closure/stage6c_prompt_full.txt:48: Print the exact script, regex and list of file extensions used in B2. Re-run it as a script file (not an inline placehol
+  kan_radar_HR/outputs/closure/stage6_dryrun_counts.csv:22: VS11_Apnea,SQI_PARTIAL,23,23,0,NONE,112,111,0
+  kan_radar_HR/outputs/closure/stage6_dryrun_counts.csv:23: VS11_Resting,SQI_PARTIAL,23,23,0,NONE,115,114,0
+  kan_radar_HR/outputs/closure/stage6_hashes_after.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  data\VITALSENSE_120_DATASET\VS11\VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage6_hashes_after.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  data\VITALSENSE_120_DATASET\VS11\VS11_Apnea_Mindray.ma
+  kan_radar_HR/outputs/closure/stage6_hashes_after.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  data\VITALSENSE_120_DATASET\VS11\VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage6_hashes_after.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  data\VITALSENSE_120_DATASET\VS11\VS11_Resting_Mindray.
+  kan_radar_HR/outputs/closure/stage6_hashes_before.txt:106: 4981052c4a34b1707e687321f205a6ef02f7c162bd2513e26d5805ba10f9cd35  data\VITALSENSE_120_DATASET\VS11\VS11_Apnea.mat
+  kan_radar_HR/outputs/closure/stage6_hashes_before.txt:107: 515a45fbfe55a4a4725672ae47e82fd91cfa32640738cd09efb95a1a4a3ea751  data\VITALSENSE_120_DATASET\VS11\VS11_Apnea_Mindray.ma
+  kan_radar_HR/outputs/closure/stage6_hashes_before.txt:108: 727ffaa27f2ca9afec633d01158c49cc34092fc64bbc0e3ada2febb3a550632d  data\VITALSENSE_120_DATASET\VS11\VS11_Resting.mat
+  kan_radar_HR/outputs/closure/stage6_hashes_before.txt:109: 05f4a9dd4453d05c45e59e767e63e7cd40d62537dc1499ebd0a2a259adb2f135  data\VITALSENSE_120_DATASET\VS11\VS11_Resting_Mindray.
+  kan_radar_HR/outputs/closure/sync_status_decoupled_v2.csv:22: VS11,Apnea,UNVERIFIED,INCONCLUSIVE,NOT_YET_SUPPORTED,PASS,UNVERIFIED_TIMING
+  kan_radar_HR/outputs/closure/sync_status_decoupled_v2.csv:23: VS11,Resting,UNVERIFIED,CONSISTENT_NOT_PROVEN,NOT_YET_SUPPORTED,PASS,PARTIALLY_ALIGNED
+  kan_radar_HR/outputs/closure/sync_status_decoupled_v3.csv:22: VS11,Apnea,UNVERIFIED,INCONCLUSIVE,True,NOT_YET_SUPPORTED,SQI_PARTIAL,0.9894,1.13,UNVERIFIED_TIMING
+  kan_radar_HR/outputs/closure/sync_status_decoupled_v3.csv:23: VS11,Resting,UNVERIFIED,CONSISTENT_NOT_PROVEN,False,NOT_YET_SUPPORTED,SQI_PARTIAL,0.9913,1.1,PARTIALLY_ALIGNED
+  kan_radar_HR/outputs/closure/window_coverage_gate_diagnostic.csv:22: VS11,Apnea,23,23,0,1.0,NONE
+  kan_radar_HR/outputs/closure/window_coverage_gate_diagnostic.csv:23: VS11,Resting,23,23,0,1.0,NONE
+  kan_radar_HR/outputs/closure/v2/sync_validation_results.csv:22: VS11,Apnea,data\VITALSENSE_120_DATASET\VS11\VS11_Apnea.mat,data\VITALSENSE_120_DATASET\VS11\VS11_Apnea_Mindray.mat,PROBA
+  kan_radar_HR/outputs/closure/v2/sync_validation_results.csv:23: VS11,Resting,data\VITALSENSE_120_DATASET\VS11\VS11_Resting.mat,data\VITALSENSE_120_DATASET\VS11\VS11_Resting_Mindray.mat
+
+Pattern 'VS04_Holding': 1 match(es)
+  kan_radar_HR/outputs/closure/stage6c_prompt_full.txt:48: Print the exact script, regex and list of file extensions used in B2. Re-run it as a script file (not an inline placehol
+
+Pattern 'transient sinus arrhythmia': 1 match(es)
+  kan_radar_HR/outputs/closure/stage6c_prompt_full.txt:48: Print the exact script, regex and list of file extensions used in B2. Re-run it as a script file (not an inline placehol

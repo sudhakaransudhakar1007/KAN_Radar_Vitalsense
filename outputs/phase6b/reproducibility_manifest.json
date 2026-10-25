@@ -1,0 +1,232 @@
+{
+  "benchmark_name": "PHASE_6B_FAIR_SYNTHETIC_BASELINE_COMPARISON",
+  "created_at_utc": "2026-10-21T14:49:00Z",
+  "dataset_spec": {
+    "generator_function": "src.kan.trainer.generate_synthetic_dataset",
+    "random_seed": 42,
+    "subject_count": 8,
+    "windows_per_subject": 10,
+    "total_windows": 80,
+    "window_length_samples": 3333,
+    "sampling_rate_hz": 333.3333333333333,
+    "validation_subjects_count": 2,
+    "train_subjects_count": 5,
+    "test_subjects_count": 1
+  },
+  "root_artifacts": {
+    "pooled_comparison_csv": {
+      "relative_path": "outputs/phase6b/pooled_comparison.csv",
+      "sha256": "20ebc1a859d352773aecd7c7ecda44896b419175df7579728546aea6fce889e9"
+    },
+    "per_subject_comparison_csv": {
+      "relative_path": "outputs/phase6b/per_subject_comparison.csv",
+      "sha256": "5b63eb29249fc80aa08640c5aa6cccc80b3a6cf96af40d3208357dcf0c09ae69"
+    },
+    "baseline_comparison_summary_json": {
+      "relative_path": "outputs/phase6b/baseline_comparison_summary.json",
+      "sha256": "5f87475e82091c5194a36bde049597afc98c2b8ddc57c1c8ab39f8ee2dd9b1d4"
+    },
+    "statistical_tests_json": {
+      "relative_path": "outputs/phase6b/statistical_tests.json",
+      "sha256": "337d6fdb2f4106a92bd79fc38e8b63d490d464a22d821d673f294aae307a9e5c"
+    }
+  },
+  "models": {
+    "KAN": {
+      "predictions_all_folds_csv": {
+        "relative_path": "outputs/phase6b/synthetic_kan/predictions_all_folds.csv",
+        "sha256": "71734c37fb7e16e6ce39d4ac7707ed82b3af174ac4d52b97922935b9c015099d"
+      },
+      "training_config_json": {
+        "relative_path": "outputs/phase6b/synthetic_kan/training_config.json",
+        "sha256": "f32a74fbde51bc4fe6661e86edf7404b174876f87cfecdf4d93d689f6c42d1c0"
+      },
+      "run_metadata_json": {
+        "relative_path": "outputs/phase6b/synthetic_kan/run_metadata.json",
+        "sha256": "0141cc78c8c2e9a49b509628beb3f415c57c4a7f0692196c68fdaf552db46c30"
+      },
+      "fold_split_manifest_csv": {
+        "relative_path": "outputs/phase6b/synthetic_kan/fold_split_manifest.csv",
+        "sha256": "fac497feb23b1bc782455eb5eac7dfdf7bcd0dafbebf24bdf86cba0eabd9f547"
+      },
+      "hyperparameters": {
+        "run_id": "synthetic_kan",
+        "mode": "synthetic",
+        "seed": 42,
+        "epochs": 15,
+        "batch_size": 16,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "model_type": "kan",
+        "latent_dim": 16,
+        "hidden_dim": 8,
+        "grid_size": 5,
+        "spline_order": 3,
+        "grid_range": [
+          -1.0,
+          1.0
+        ],
+        "feature_scaling": "standard",
+        "target_normalization": true,
+        "val_subjects_count": 2,
+        "synthetic_subjects_count": 8,
+        "synthetic_windows_per_subject": 10,
+        "output_dir": "outputs/phase6b/synthetic_kan"
+      },
+      "environment_versions": {
+        "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "tensorflow": "2.21.0",
+        "keras": "3.12.4",
+        "platform": "Windows-10-10.0.26200-SP0"
+      }
+    },
+    "MLP": {
+      "predictions_all_folds_csv": {
+        "relative_path": "outputs/phase6b/synthetic_mlp/predictions_all_folds.csv",
+        "sha256": "7885a60d3c13ad11d0798bff3dd5df0d6509da448e8e1b23f41944bd41a8d15b"
+      },
+      "training_config_json": {
+        "relative_path": "outputs/phase6b/synthetic_mlp/training_config.json",
+        "sha256": "96bbde7bed97e521f62a02103ae3fae01326bf35130992bbfe3aceb5750c10ab"
+      },
+      "run_metadata_json": {
+        "relative_path": "outputs/phase6b/synthetic_mlp/run_metadata.json",
+        "sha256": "36852014071faa2c93e8eb274f258206539246ed673fdb1d5255640da21040b2"
+      },
+      "fold_split_manifest_csv": {
+        "relative_path": "outputs/phase6b/synthetic_mlp/fold_split_manifest.csv",
+        "sha256": "fac497feb23b1bc782455eb5eac7dfdf7bcd0dafbebf24bdf86cba0eabd9f547"
+      },
+      "hyperparameters": {
+        "run_id": "synthetic_mlp",
+        "mode": "synthetic",
+        "seed": 42,
+        "epochs": 15,
+        "batch_size": 16,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "model_type": "mlp",
+        "latent_dim": 16,
+        "hidden_dim": 8,
+        "grid_size": 5,
+        "spline_order": 3,
+        "grid_range": [
+          -1.0,
+          1.0
+        ],
+        "feature_scaling": "standard",
+        "target_normalization": true,
+        "val_subjects_count": 2,
+        "synthetic_subjects_count": 8,
+        "synthetic_windows_per_subject": 10,
+        "output_dir": "outputs/phase6b/synthetic_mlp"
+      },
+      "environment_versions": {
+        "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "tensorflow": "2.21.0",
+        "keras": "3.12.4",
+        "platform": "Windows-10-10.0.26200-SP0"
+      }
+    },
+    "CNN": {
+      "predictions_all_folds_csv": {
+        "relative_path": "outputs/phase6b/synthetic_cnn/predictions_all_folds.csv",
+        "sha256": "53000301ce5b5358ec166a00a68548a6d4073396f643f568bf9bcb0a13693d1e"
+      },
+      "training_config_json": {
+        "relative_path": "outputs/phase6b/synthetic_cnn/training_config.json",
+        "sha256": "71ef05b0c61b8840a44027bfd82e2795a588512f23ca109211fa48f74af39b4a"
+      },
+      "run_metadata_json": {
+        "relative_path": "outputs/phase6b/synthetic_cnn/run_metadata.json",
+        "sha256": "80e10cf46f289e94ba4d97c649e9c926566b1ee592640c8410a7c3b12244d11d"
+      },
+      "fold_split_manifest_csv": {
+        "relative_path": "outputs/phase6b/synthetic_cnn/fold_split_manifest.csv",
+        "sha256": "fac497feb23b1bc782455eb5eac7dfdf7bcd0dafbebf24bdf86cba0eabd9f547"
+      },
+      "hyperparameters": {
+        "run_id": "synthetic_cnn",
+        "mode": "synthetic",
+        "seed": 42,
+        "epochs": 15,
+        "batch_size": 16,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "model_type": "cnn",
+        "latent_dim": 16,
+        "hidden_dim": 8,
+        "grid_size": 5,
+        "spline_order": 3,
+        "grid_range": [
+          -1.0,
+          1.0
+        ],
+        "feature_scaling": "standard",
+        "target_normalization": true,
+        "val_subjects_count": 2,
+        "synthetic_subjects_count": 8,
+        "synthetic_windows_per_subject": 10,
+        "output_dir": "outputs/phase6b/synthetic_cnn"
+      },
+      "environment_versions": {
+        "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "tensorflow": "2.21.0",
+        "keras": "3.12.4",
+        "platform": "Windows-10-10.0.26200-SP0"
+      }
+    },
+    "MEAN": {
+      "predictions_all_folds_csv": {
+        "relative_path": "outputs/phase6b/synthetic_mean/predictions_all_folds.csv",
+        "sha256": "718a8c38bbbb96e5dfa36385c916cbe04e62abd5097c523064d5d8905c73d746"
+      },
+      "training_config_json": {
+        "relative_path": "outputs/phase6b/synthetic_mean/training_config.json",
+        "sha256": "98fbe7654f0255267750d33329f9664b33e2d5092efd5a133fbd21bb7ba03956"
+      },
+      "run_metadata_json": {
+        "relative_path": "outputs/phase6b/synthetic_mean/run_metadata.json",
+        "sha256": "4435c621383dcdb2314aff0e1326e0a192e4bf3bb3909475982a4c54f76cea2a"
+      },
+      "fold_split_manifest_csv": {
+        "relative_path": "outputs/phase6b/synthetic_mean/fold_split_manifest.csv",
+        "sha256": "fac497feb23b1bc782455eb5eac7dfdf7bcd0dafbebf24bdf86cba0eabd9f547"
+      },
+      "hyperparameters": {
+        "run_id": "synthetic_mean",
+        "mode": "synthetic",
+        "seed": 42,
+        "epochs": 15,
+        "batch_size": 16,
+        "learning_rate": 0.005,
+        "weight_decay": 0.0001,
+        "patience": 5,
+        "model_type": "mean",
+        "latent_dim": 16,
+        "hidden_dim": 8,
+        "grid_size": 5,
+        "spline_order": 3,
+        "grid_range": [
+          -1.0,
+          1.0
+        ],
+        "feature_scaling": "standard",
+        "target_normalization": true,
+        "val_subjects_count": 2,
+        "synthetic_subjects_count": 8,
+        "synthetic_windows_per_subject": 10,
+        "output_dir": "outputs/phase6b/synthetic_mean"
+      },
+      "environment_versions": {
+        "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "tensorflow": "2.21.0",
+        "keras": "3.12.4",
+        "platform": "Windows-10-10.0.26200-SP0"
+      }
+    }
+  }
+}

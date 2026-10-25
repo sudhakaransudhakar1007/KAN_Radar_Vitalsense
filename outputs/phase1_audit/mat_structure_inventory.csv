@@ -1,0 +1,1057 @@
+relative_path,loader_used,variable_path,object_type,shape_as_read,dtype_as_read,field_names,candidate_role,orientation_status,read_status,notes
+VS01/VS01_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS01/VS01_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS01/VS01_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS01/VS01_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS02/VS02_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS02/VS02_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS02/VS02_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS03/VS03_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS03/VS03_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS03/VS03_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS04/VS04_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS04/VS04_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS04/VS04_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS05/VS05_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS05/VS05_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS05/VS05_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS06/VS06_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS06/VS06_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS06/VS06_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS07/VS07_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS07/VS07_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS07/VS07_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS08/VS08_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS08/VS08_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS08/VS08_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS09/VS09_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS09/VS09_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS09/VS09_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS10/VS10_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS10/VS10_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS10/VS10_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS11/VS11_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS11/VS11_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS11/VS11_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS12/VS12_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS12/VS12_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS12/VS12_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS13/VS13_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS13/VS13_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS13/VS13_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS14/VS14_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS14/VS14_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS14/VS14_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS15/VS15_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS15/VS15_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS15/VS15_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS16/VS16_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS16/VS16_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS16/VS16_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS17/VS17_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS17/VS17_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS17/VS17_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS18/VS18_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS18/VS18_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS18/VS18_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS19/VS19_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS19/VS19_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS19/VS19_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS20/VS20_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS20/VS20_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS20/VS20_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS21/VS21_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS21/VS21_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS21/VS21_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS22/VS22_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS22/VS22_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS22/VS22_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS23/VS23_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS23/VS23_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS23/VS23_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS24/VS24_Apnea.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",int16,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Apnea_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30720,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting.mat,scipy.io.loadmat,MeasurementInfo,ndarray_object,"(3,)",object,NONE,,1D_VECTOR,SUCCESS,Object array; 1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting.mat,scipy.io.loadmat,MeasurementInfo[0],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting.mat,scipy.io.loadmat,MeasurementInfo[1],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting.mat,scipy.io.loadmat,MeasurementInfo[2],scalar,(),str,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting.mat,scipy.io.loadmat,Radar,mat_struct,(),struct,"fs, t_frame",,NOT_APPLICABLE,SUCCESS,MATLAB struct with 2 fields
+VS24/VS24_Resting.mat,scipy.io.loadmat,Radar.fs,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting.mat,scipy.io.loadmat,Radar.t_frame,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting.mat,scipy.io.loadmat,T_frame,scalar,(),float,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting.mat,scipy.io.loadmat,VitalSig,ndarray,"(40000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,BPD,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,BPM,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,BPS,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,Fs_ecg,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,Fs_pleth,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,Fs_resp,scalar,(),int,NONE,,NOT_APPLICABLE,SUCCESS,Scalar value
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,HR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,RR,ndarray,"(120,)",uint8,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead2,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,ecg_lead3,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,ecg_leadv1,ndarray,"(60000,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,pleth,ndarray,"(7200,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector
+VS24/VS24_Resting_Mindray.mat,scipy.io.loadmat,respiration,ndarray,"(30600,)",float64,NONE,,1D_VECTOR,SUCCESS,1D array as loaded; squeeze_me flattened MATLAB 1xN or Nx1 vector

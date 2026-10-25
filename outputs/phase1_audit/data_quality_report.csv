@@ -1,0 +1,817 @@
+relative_path,field_path,check_performed,observed_result,status,evidence,notes
+VS01/VS01_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS01/VS01_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS01/VS01_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS01/VS01_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS01/VS01_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS01/VS01_Apnea.mat,VitalSig,constant_signal_check,"std=2.8632, range=14.4287",PASS,std=2.8632 > 1e-06,Dynamic signal variation confirmed
+VS01/VS01_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS01/VS01_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS01/VS01_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS01/VS01_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS01/VS01_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS01/VS01_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS01/VS01_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS01/VS01_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=54.0, max=63.0)",PASS,"Observed HR range: [54.0, 63.0] bpm",Values within normal human physiological bounds
+VS01/VS01_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS01/VS01_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS01/VS01_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS01/VS01_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS01/VS01_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS01/VS01_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS01/VS01_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS01/VS01_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS01/VS01_Resting.mat,VitalSig,constant_signal_check,"std=0.8677, range=4.9488",PASS,std=0.8677 > 1e-06,Dynamic signal variation confirmed
+VS01/VS01_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS01/VS01_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS01/VS01_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS01/VS01_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS01/VS01_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS01/VS01_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS01/VS01_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS01/VS01_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=54.0, max=59.0)",PASS,"Observed HR range: [54.0, 59.0] bpm",Values within normal human physiological bounds
+VS01/VS01_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS01/VS01_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS01/VS01_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS02/VS02_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS02/VS02_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS02/VS02_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS02/VS02_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS02/VS02_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS02/VS02_Apnea.mat,VitalSig,constant_signal_check,"std=0.7519, range=3.3986",PASS,std=0.7519 > 1e-06,Dynamic signal variation confirmed
+VS02/VS02_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS02/VS02_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS02/VS02_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS02/VS02_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS02/VS02_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS02/VS02_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS02/VS02_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS02/VS02_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=67.0, max=77.0)",PASS,"Observed HR range: [67.0, 77.0] bpm",Values within normal human physiological bounds
+VS02/VS02_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS02/VS02_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS02/VS02_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS02/VS02_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS02/VS02_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS02/VS02_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS02/VS02_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS02/VS02_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS02/VS02_Resting.mat,VitalSig,constant_signal_check,"std=2.1576, range=8.1692",PASS,std=2.1576 > 1e-06,Dynamic signal variation confirmed
+VS02/VS02_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS02/VS02_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS02/VS02_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS02/VS02_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS02/VS02_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS02/VS02_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS02/VS02_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS02/VS02_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=71.0, max=79.0)",PASS,"Observed HR range: [71.0, 79.0] bpm",Values within normal human physiological bounds
+VS02/VS02_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS02/VS02_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS02/VS02_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS03/VS03_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS03/VS03_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS03/VS03_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS03/VS03_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS03/VS03_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS03/VS03_Apnea.mat,VitalSig,constant_signal_check,"std=1.0855, range=5.7858",PASS,std=1.0855 > 1e-06,Dynamic signal variation confirmed
+VS03/VS03_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS03/VS03_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS03/VS03_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS03/VS03_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS03/VS03_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS03/VS03_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS03/VS03_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS03/VS03_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=55.0, max=61.0)",PASS,"Observed HR range: [55.0, 61.0] bpm",Values within normal human physiological bounds
+VS03/VS03_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS03/VS03_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS03/VS03_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS03/VS03_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS03/VS03_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS03/VS03_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS03/VS03_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS03/VS03_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS03/VS03_Resting.mat,VitalSig,constant_signal_check,"std=0.1920, range=0.8808",PASS,std=0.1920 > 1e-06,Dynamic signal variation confirmed
+VS03/VS03_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS03/VS03_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS03/VS03_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS03/VS03_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS03/VS03_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS03/VS03_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS03/VS03_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS03/VS03_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=54.0, max=65.0)",PASS,"Observed HR range: [54.0, 65.0] bpm",Values within normal human physiological bounds
+VS03/VS03_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS03/VS03_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS03/VS03_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS04/VS04_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS04/VS04_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS04/VS04_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS04/VS04_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS04/VS04_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS04/VS04_Apnea.mat,VitalSig,constant_signal_check,"std=0.5054, range=2.5806",PASS,std=0.5054 > 1e-06,Dynamic signal variation confirmed
+VS04/VS04_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS04/VS04_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS04/VS04_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS04/VS04_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS04/VS04_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS04/VS04_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS04/VS04_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS04/VS04_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=62.0, max=66.0)",PASS,"Observed HR range: [62.0, 66.0] bpm",Values within normal human physiological bounds
+VS04/VS04_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS04/VS04_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS04/VS04_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS04/VS04_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS04/VS04_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS04/VS04_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS04/VS04_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS04/VS04_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS04/VS04_Resting.mat,VitalSig,constant_signal_check,"std=0.4077, range=1.9315",PASS,std=0.4077 > 1e-06,Dynamic signal variation confirmed
+VS04/VS04_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS04/VS04_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS04/VS04_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS04/VS04_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS04/VS04_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS04/VS04_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS04/VS04_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS04/VS04_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=65.0, max=69.0)",PASS,"Observed HR range: [65.0, 69.0] bpm",Values within normal human physiological bounds
+VS04/VS04_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS04/VS04_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS04/VS04_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS05/VS05_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS05/VS05_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS05/VS05_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS05/VS05_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS05/VS05_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS05/VS05_Apnea.mat,VitalSig,constant_signal_check,"std=6.6844, range=26.5814",PASS,std=6.6844 > 1e-06,Dynamic signal variation confirmed
+VS05/VS05_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS05/VS05_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS05/VS05_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS05/VS05_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS05/VS05_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS05/VS05_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS05/VS05_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS05/VS05_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=55.0, max=71.0)",PASS,"Observed HR range: [55.0, 71.0] bpm",Values within normal human physiological bounds
+VS05/VS05_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS05/VS05_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS05/VS05_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS05/VS05_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS05/VS05_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS05/VS05_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS05/VS05_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS05/VS05_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS05/VS05_Resting.mat,VitalSig,constant_signal_check,"std=1.5008, range=7.9489",PASS,std=1.5008 > 1e-06,Dynamic signal variation confirmed
+VS05/VS05_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS05/VS05_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS05/VS05_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS05/VS05_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS05/VS05_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS05/VS05_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS05/VS05_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS05/VS05_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=58.0, max=75.0)",PASS,"Observed HR range: [58.0, 75.0] bpm",Values within normal human physiological bounds
+VS05/VS05_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS05/VS05_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS05/VS05_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS06/VS06_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS06/VS06_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS06/VS06_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS06/VS06_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS06/VS06_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS06/VS06_Apnea.mat,VitalSig,constant_signal_check,"std=2.2963, range=12.2362",PASS,std=2.2963 > 1e-06,Dynamic signal variation confirmed
+VS06/VS06_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS06/VS06_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS06/VS06_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS06/VS06_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS06/VS06_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS06/VS06_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS06/VS06_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS06/VS06_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=52.0, max=59.0)",PASS,"Observed HR range: [52.0, 59.0] bpm",Values within normal human physiological bounds
+VS06/VS06_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS06/VS06_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS06/VS06_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS06/VS06_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS06/VS06_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS06/VS06_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS06/VS06_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS06/VS06_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS06/VS06_Resting.mat,VitalSig,constant_signal_check,"std=0.5524, range=3.0030",PASS,std=0.5524 > 1e-06,Dynamic signal variation confirmed
+VS06/VS06_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS06/VS06_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS06/VS06_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS06/VS06_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS06/VS06_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS06/VS06_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS06/VS06_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS06/VS06_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=56.0, max=61.0)",PASS,"Observed HR range: [56.0, 61.0] bpm",Values within normal human physiological bounds
+VS06/VS06_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS06/VS06_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS06/VS06_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS07/VS07_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS07/VS07_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS07/VS07_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS07/VS07_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS07/VS07_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS07/VS07_Apnea.mat,VitalSig,constant_signal_check,"std=0.9795, range=5.8637",PASS,std=0.9795 > 1e-06,Dynamic signal variation confirmed
+VS07/VS07_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS07/VS07_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS07/VS07_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS07/VS07_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS07/VS07_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS07/VS07_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS07/VS07_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS07/VS07_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=64.0, max=76.0)",PASS,"Observed HR range: [64.0, 76.0] bpm",Values within normal human physiological bounds
+VS07/VS07_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS07/VS07_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS07/VS07_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS07/VS07_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS07/VS07_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS07/VS07_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS07/VS07_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS07/VS07_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS07/VS07_Resting.mat,VitalSig,constant_signal_check,"std=0.3982, range=1.7433",PASS,std=0.3982 > 1e-06,Dynamic signal variation confirmed
+VS07/VS07_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS07/VS07_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS07/VS07_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS07/VS07_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS07/VS07_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS07/VS07_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS07/VS07_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS07/VS07_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=65.0, max=74.0)",PASS,"Observed HR range: [65.0, 74.0] bpm",Values within normal human physiological bounds
+VS07/VS07_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS07/VS07_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS07/VS07_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS08/VS08_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS08/VS08_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS08/VS08_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS08/VS08_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS08/VS08_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS08/VS08_Apnea.mat,VitalSig,constant_signal_check,"std=0.7068, range=2.6106",PASS,std=0.7068 > 1e-06,Dynamic signal variation confirmed
+VS08/VS08_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS08/VS08_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS08/VS08_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS08/VS08_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS08/VS08_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS08/VS08_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS08/VS08_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS08/VS08_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=64.0, max=70.0)",PASS,"Observed HR range: [64.0, 70.0] bpm",Values within normal human physiological bounds
+VS08/VS08_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS08/VS08_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS08/VS08_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS08/VS08_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS08/VS08_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS08/VS08_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS08/VS08_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS08/VS08_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS08/VS08_Resting.mat,VitalSig,constant_signal_check,"std=0.3380, range=4.2140",PASS,std=0.3380 > 1e-06,Dynamic signal variation confirmed
+VS08/VS08_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS08/VS08_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS08/VS08_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS08/VS08_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS08/VS08_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS08/VS08_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS08/VS08_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS08/VS08_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=68.0, max=72.0)",PASS,"Observed HR range: [68.0, 72.0] bpm",Values within normal human physiological bounds
+VS08/VS08_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS08/VS08_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS08/VS08_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS09/VS09_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS09/VS09_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS09/VS09_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS09/VS09_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS09/VS09_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS09/VS09_Apnea.mat,VitalSig,constant_signal_check,"std=1.3050, range=5.1703",PASS,std=1.3050 > 1e-06,Dynamic signal variation confirmed
+VS09/VS09_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS09/VS09_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS09/VS09_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS09/VS09_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS09/VS09_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS09/VS09_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS09/VS09_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS09/VS09_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=63.0, max=68.0)",PASS,"Observed HR range: [63.0, 68.0] bpm",Values within normal human physiological bounds
+VS09/VS09_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS09/VS09_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS09/VS09_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS09/VS09_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS09/VS09_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS09/VS09_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS09/VS09_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS09/VS09_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS09/VS09_Resting.mat,VitalSig,constant_signal_check,"std=0.4054, range=1.8857",PASS,std=0.4054 > 1e-06,Dynamic signal variation confirmed
+VS09/VS09_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS09/VS09_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS09/VS09_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS09/VS09_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS09/VS09_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS09/VS09_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS09/VS09_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS09/VS09_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=64.0, max=71.0)",PASS,"Observed HR range: [64.0, 71.0] bpm",Values within normal human physiological bounds
+VS09/VS09_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS09/VS09_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS09/VS09_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS10/VS10_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS10/VS10_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS10/VS10_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS10/VS10_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS10/VS10_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS10/VS10_Apnea.mat,VitalSig,constant_signal_check,"std=5.6204, range=17.2280",PASS,std=5.6204 > 1e-06,Dynamic signal variation confirmed
+VS10/VS10_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS10/VS10_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS10/VS10_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS10/VS10_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS10/VS10_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS10/VS10_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS10/VS10_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS10/VS10_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=73.0, max=83.0)",PASS,"Observed HR range: [73.0, 83.0] bpm",Values within normal human physiological bounds
+VS10/VS10_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS10/VS10_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS10/VS10_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS10/VS10_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS10/VS10_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS10/VS10_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS10/VS10_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS10/VS10_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS10/VS10_Resting.mat,VitalSig,constant_signal_check,"std=0.6155, range=2.9271",PASS,std=0.6155 > 1e-06,Dynamic signal variation confirmed
+VS10/VS10_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS10/VS10_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS10/VS10_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS10/VS10_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS10/VS10_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS10/VS10_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS10/VS10_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS10/VS10_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=73.0, max=86.0)",PASS,"Observed HR range: [73.0, 86.0] bpm",Values within normal human physiological bounds
+VS10/VS10_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS10/VS10_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS10/VS10_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS11/VS11_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS11/VS11_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS11/VS11_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS11/VS11_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS11/VS11_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS11/VS11_Apnea.mat,VitalSig,constant_signal_check,"std=1.1890, range=5.1485",PASS,std=1.1890 > 1e-06,Dynamic signal variation confirmed
+VS11/VS11_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS11/VS11_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS11/VS11_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS11/VS11_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS11/VS11_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS11/VS11_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS11/VS11_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS11/VS11_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=54.0, max=58.0)",PASS,"Observed HR range: [54.0, 58.0] bpm",Values within normal human physiological bounds
+VS11/VS11_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS11/VS11_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS11/VS11_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS11/VS11_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS11/VS11_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS11/VS11_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS11/VS11_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS11/VS11_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS11/VS11_Resting.mat,VitalSig,constant_signal_check,"std=0.4653, range=2.3039",PASS,std=0.4653 > 1e-06,Dynamic signal variation confirmed
+VS11/VS11_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS11/VS11_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS11/VS11_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS11/VS11_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS11/VS11_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS11/VS11_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS11/VS11_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS11/VS11_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=56.0, max=60.0)",PASS,"Observed HR range: [56.0, 60.0] bpm",Values within normal human physiological bounds
+VS11/VS11_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS11/VS11_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS11/VS11_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS12/VS12_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS12/VS12_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS12/VS12_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS12/VS12_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS12/VS12_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS12/VS12_Apnea.mat,VitalSig,constant_signal_check,"std=1.0229, range=7.7697",PASS,std=1.0229 > 1e-06,Dynamic signal variation confirmed
+VS12/VS12_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS12/VS12_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS12/VS12_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS12/VS12_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS12/VS12_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS12/VS12_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS12/VS12_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS12/VS12_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=69.0, max=80.0)",PASS,"Observed HR range: [69.0, 80.0] bpm",Values within normal human physiological bounds
+VS12/VS12_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS12/VS12_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS12/VS12_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS12/VS12_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS12/VS12_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS12/VS12_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS12/VS12_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS12/VS12_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS12/VS12_Resting.mat,VitalSig,constant_signal_check,"std=0.2510, range=1.1633",PASS,std=0.2510 > 1e-06,Dynamic signal variation confirmed
+VS12/VS12_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS12/VS12_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS12/VS12_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS12/VS12_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS12/VS12_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS12/VS12_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS12/VS12_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS12/VS12_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=71.0, max=76.0)",PASS,"Observed HR range: [71.0, 76.0] bpm",Values within normal human physiological bounds
+VS12/VS12_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS12/VS12_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS12/VS12_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS13/VS13_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS13/VS13_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS13/VS13_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS13/VS13_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS13/VS13_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS13/VS13_Apnea.mat,VitalSig,constant_signal_check,"std=0.6225, range=3.1728",PASS,std=0.6225 > 1e-06,Dynamic signal variation confirmed
+VS13/VS13_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS13/VS13_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS13/VS13_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS13/VS13_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS13/VS13_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS13/VS13_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS13/VS13_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS13/VS13_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=53.0, max=56.0)",PASS,"Observed HR range: [53.0, 56.0] bpm",Values within normal human physiological bounds
+VS13/VS13_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS13/VS13_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS13/VS13_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS13/VS13_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS13/VS13_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS13/VS13_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS13/VS13_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS13/VS13_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS13/VS13_Resting.mat,VitalSig,constant_signal_check,"std=0.3783, range=1.7449",PASS,std=0.3783 > 1e-06,Dynamic signal variation confirmed
+VS13/VS13_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS13/VS13_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS13/VS13_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS13/VS13_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS13/VS13_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS13/VS13_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS13/VS13_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS13/VS13_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=54.0, max=57.0)",PASS,"Observed HR range: [54.0, 57.0] bpm",Values within normal human physiological bounds
+VS13/VS13_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS13/VS13_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS13/VS13_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS14/VS14_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS14/VS14_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS14/VS14_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS14/VS14_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS14/VS14_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS14/VS14_Apnea.mat,VitalSig,constant_signal_check,"std=2.4750, range=9.6144",PASS,std=2.4750 > 1e-06,Dynamic signal variation confirmed
+VS14/VS14_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS14/VS14_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS14/VS14_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS14/VS14_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS14/VS14_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS14/VS14_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS14/VS14_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS14/VS14_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=63.0, max=71.0)",PASS,"Observed HR range: [63.0, 71.0] bpm",Values within normal human physiological bounds
+VS14/VS14_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS14/VS14_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS14/VS14_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS14/VS14_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS14/VS14_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS14/VS14_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS14/VS14_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS14/VS14_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS14/VS14_Resting.mat,VitalSig,constant_signal_check,"std=0.4867, range=2.9871",PASS,std=0.4867 > 1e-06,Dynamic signal variation confirmed
+VS14/VS14_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS14/VS14_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS14/VS14_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS14/VS14_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS14/VS14_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS14/VS14_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS14/VS14_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS14/VS14_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=66.0, max=72.0)",PASS,"Observed HR range: [66.0, 72.0] bpm",Values within normal human physiological bounds
+VS14/VS14_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS14/VS14_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS14/VS14_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS15/VS15_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS15/VS15_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS15/VS15_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS15/VS15_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS15/VS15_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS15/VS15_Apnea.mat,VitalSig,constant_signal_check,"std=2.1303, range=7.0657",PASS,std=2.1303 > 1e-06,Dynamic signal variation confirmed
+VS15/VS15_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS15/VS15_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS15/VS15_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS15/VS15_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS15/VS15_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS15/VS15_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS15/VS15_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS15/VS15_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=65.0, max=71.0)",PASS,"Observed HR range: [65.0, 71.0] bpm",Values within normal human physiological bounds
+VS15/VS15_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS15/VS15_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS15/VS15_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS15/VS15_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS15/VS15_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS15/VS15_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS15/VS15_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS15/VS15_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS15/VS15_Resting.mat,VitalSig,constant_signal_check,"std=0.6892, range=4.0783",PASS,std=0.6892 > 1e-06,Dynamic signal variation confirmed
+VS15/VS15_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS15/VS15_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS15/VS15_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS15/VS15_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS15/VS15_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS15/VS15_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS15/VS15_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS15/VS15_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=67.0, max=74.0)",PASS,"Observed HR range: [67.0, 74.0] bpm",Values within normal human physiological bounds
+VS15/VS15_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS15/VS15_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS15/VS15_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS16/VS16_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS16/VS16_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS16/VS16_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS16/VS16_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS16/VS16_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS16/VS16_Apnea.mat,VitalSig,constant_signal_check,"std=2.4128, range=12.7366",PASS,std=2.4128 > 1e-06,Dynamic signal variation confirmed
+VS16/VS16_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS16/VS16_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS16/VS16_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS16/VS16_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS16/VS16_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS16/VS16_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS16/VS16_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS16/VS16_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=58.0, max=66.0)",PASS,"Observed HR range: [58.0, 66.0] bpm",Values within normal human physiological bounds
+VS16/VS16_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS16/VS16_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS16/VS16_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS16/VS16_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS16/VS16_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS16/VS16_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS16/VS16_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS16/VS16_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS16/VS16_Resting.mat,VitalSig,constant_signal_check,"std=1.6787, range=9.6430",PASS,std=1.6787 > 1e-06,Dynamic signal variation confirmed
+VS16/VS16_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS16/VS16_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS16/VS16_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS16/VS16_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS16/VS16_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS16/VS16_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS16/VS16_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS16/VS16_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=60.0, max=64.0)",PASS,"Observed HR range: [60.0, 64.0] bpm",Values within normal human physiological bounds
+VS16/VS16_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS16/VS16_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS16/VS16_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS17/VS17_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS17/VS17_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS17/VS17_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS17/VS17_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS17/VS17_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS17/VS17_Apnea.mat,VitalSig,constant_signal_check,"std=2.3504, range=8.3393",PASS,std=2.3504 > 1e-06,Dynamic signal variation confirmed
+VS17/VS17_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS17/VS17_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS17/VS17_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS17/VS17_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS17/VS17_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS17/VS17_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS17/VS17_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS17/VS17_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=64.0, max=71.0)",PASS,"Observed HR range: [64.0, 71.0] bpm",Values within normal human physiological bounds
+VS17/VS17_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS17/VS17_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS17/VS17_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS17/VS17_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS17/VS17_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS17/VS17_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS17/VS17_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS17/VS17_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS17/VS17_Resting.mat,VitalSig,constant_signal_check,"std=0.5280, range=2.1489",PASS,std=0.5280 > 1e-06,Dynamic signal variation confirmed
+VS17/VS17_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS17/VS17_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS17/VS17_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS17/VS17_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS17/VS17_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS17/VS17_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS17/VS17_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS17/VS17_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=68.0, max=76.0)",PASS,"Observed HR range: [68.0, 76.0] bpm",Values within normal human physiological bounds
+VS17/VS17_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS17/VS17_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS17/VS17_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS18/VS18_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS18/VS18_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS18/VS18_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS18/VS18_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS18/VS18_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS18/VS18_Apnea.mat,VitalSig,constant_signal_check,"std=1.5390, range=5.2310",PASS,std=1.5390 > 1e-06,Dynamic signal variation confirmed
+VS18/VS18_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS18/VS18_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS18/VS18_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS18/VS18_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS18/VS18_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS18/VS18_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS18/VS18_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS18/VS18_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=62.0, max=77.0)",PASS,"Observed HR range: [62.0, 77.0] bpm",Values within normal human physiological bounds
+VS18/VS18_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS18/VS18_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS18/VS18_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS18/VS18_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS18/VS18_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS18/VS18_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS18/VS18_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS18/VS18_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS18/VS18_Resting.mat,VitalSig,constant_signal_check,"std=1.8218, range=7.7819",PASS,std=1.8218 > 1e-06,Dynamic signal variation confirmed
+VS18/VS18_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS18/VS18_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS18/VS18_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS18/VS18_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS18/VS18_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS18/VS18_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS18/VS18_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS18/VS18_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=63.0, max=68.0)",PASS,"Observed HR range: [63.0, 68.0] bpm",Values within normal human physiological bounds
+VS18/VS18_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS18/VS18_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS18/VS18_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS19/VS19_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS19/VS19_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS19/VS19_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS19/VS19_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS19/VS19_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS19/VS19_Apnea.mat,VitalSig,constant_signal_check,"std=3.6458, range=10.9171",PASS,std=3.6458 > 1e-06,Dynamic signal variation confirmed
+VS19/VS19_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS19/VS19_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS19/VS19_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS19/VS19_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS19/VS19_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS19/VS19_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS19/VS19_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS19/VS19_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=57.0, max=69.0)",PASS,"Observed HR range: [57.0, 69.0] bpm",Values within normal human physiological bounds
+VS19/VS19_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS19/VS19_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS19/VS19_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS19/VS19_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS19/VS19_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS19/VS19_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS19/VS19_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS19/VS19_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS19/VS19_Resting.mat,VitalSig,constant_signal_check,"std=2.4906, range=21.9515",PASS,std=2.4906 > 1e-06,Dynamic signal variation confirmed
+VS19/VS19_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS19/VS19_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS19/VS19_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS19/VS19_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS19/VS19_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS19/VS19_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS19/VS19_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS19/VS19_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=58.0, max=69.0)",PASS,"Observed HR range: [58.0, 69.0] bpm",Values within normal human physiological bounds
+VS19/VS19_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS19/VS19_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS19/VS19_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS20/VS20_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS20/VS20_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS20/VS20_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS20/VS20_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS20/VS20_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS20/VS20_Apnea.mat,VitalSig,constant_signal_check,"std=1.4301, range=9.6327",PASS,std=1.4301 > 1e-06,Dynamic signal variation confirmed
+VS20/VS20_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS20/VS20_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS20/VS20_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS20/VS20_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS20/VS20_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS20/VS20_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS20/VS20_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS20/VS20_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=47.0, max=53.0)",PASS,"Observed HR range: [47.0, 53.0] bpm",Values within normal human physiological bounds
+VS20/VS20_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS20/VS20_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS20/VS20_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS20/VS20_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS20/VS20_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS20/VS20_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS20/VS20_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS20/VS20_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS20/VS20_Resting.mat,VitalSig,constant_signal_check,"std=0.6519, range=4.7150",PASS,std=0.6519 > 1e-06,Dynamic signal variation confirmed
+VS20/VS20_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS20/VS20_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS20/VS20_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS20/VS20_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS20/VS20_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS20/VS20_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS20/VS20_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS20/VS20_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=48.0, max=51.0)",PASS,"Observed HR range: [48.0, 51.0] bpm",Values within normal human physiological bounds
+VS20/VS20_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS20/VS20_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS20/VS20_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS21/VS21_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS21/VS21_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS21/VS21_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS21/VS21_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS21/VS21_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS21/VS21_Apnea.mat,VitalSig,constant_signal_check,"std=4.5542, range=18.5801",PASS,std=4.5542 > 1e-06,Dynamic signal variation confirmed
+VS21/VS21_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS21/VS21_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS21/VS21_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS21/VS21_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS21/VS21_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS21/VS21_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS21/VS21_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS21/VS21_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=59.0, max=75.0)",PASS,"Observed HR range: [59.0, 75.0] bpm",Values within normal human physiological bounds
+VS21/VS21_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS21/VS21_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS21/VS21_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS21/VS21_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS21/VS21_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS21/VS21_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS21/VS21_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS21/VS21_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS21/VS21_Resting.mat,VitalSig,constant_signal_check,"std=0.9579, range=4.8834",PASS,std=0.9579 > 1e-06,Dynamic signal variation confirmed
+VS21/VS21_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS21/VS21_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS21/VS21_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS21/VS21_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS21/VS21_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS21/VS21_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS21/VS21_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS21/VS21_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=61.0, max=70.0)",PASS,"Observed HR range: [61.0, 70.0] bpm",Values within normal human physiological bounds
+VS21/VS21_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS21/VS21_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS21/VS21_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS22/VS22_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS22/VS22_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS22/VS22_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS22/VS22_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS22/VS22_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS22/VS22_Apnea.mat,VitalSig,constant_signal_check,"std=2.2410, range=17.1862",PASS,std=2.2410 > 1e-06,Dynamic signal variation confirmed
+VS22/VS22_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS22/VS22_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS22/VS22_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS22/VS22_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS22/VS22_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS22/VS22_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS22/VS22_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS22/VS22_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=55.0, max=70.0)",PASS,"Observed HR range: [55.0, 70.0] bpm",Values within normal human physiological bounds
+VS22/VS22_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS22/VS22_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS22/VS22_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS22/VS22_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS22/VS22_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS22/VS22_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS22/VS22_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS22/VS22_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS22/VS22_Resting.mat,VitalSig,constant_signal_check,"std=0.3081, range=1.4963",PASS,std=0.3081 > 1e-06,Dynamic signal variation confirmed
+VS22/VS22_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS22/VS22_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS22/VS22_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS22/VS22_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS22/VS22_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS22/VS22_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS22/VS22_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS22/VS22_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=58.0, max=66.0)",PASS,"Observed HR range: [58.0, 66.0] bpm",Values within normal human physiological bounds
+VS22/VS22_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS22/VS22_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS22/VS22_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS23/VS23_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS23/VS23_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS23/VS23_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS23/VS23_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS23/VS23_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS23/VS23_Apnea.mat,VitalSig,constant_signal_check,"std=1.0167, range=7.1064",PASS,std=1.0167 > 1e-06,Dynamic signal variation confirmed
+VS23/VS23_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS23/VS23_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS23/VS23_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS23/VS23_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS23/VS23_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS23/VS23_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS23/VS23_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS23/VS23_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=64.0, max=78.0)",PASS,"Observed HR range: [64.0, 78.0] bpm",Values within normal human physiological bounds
+VS23/VS23_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS23/VS23_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS23/VS23_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS23/VS23_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS23/VS23_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS23/VS23_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS23/VS23_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS23/VS23_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS23/VS23_Resting.mat,VitalSig,constant_signal_check,"std=1.0254, range=9.7753",PASS,std=1.0254 > 1e-06,Dynamic signal variation confirmed
+VS23/VS23_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS23/VS23_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS23/VS23_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS23/VS23_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS23/VS23_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS23/VS23_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS23/VS23_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS23/VS23_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=62.0, max=72.0)",PASS,"Observed HR range: [62.0, 72.0] bpm",Values within normal human physiological bounds
+VS23/VS23_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS23/VS23_Resting_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS23/VS23_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS24/VS24_Apnea.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS24/VS24_Apnea.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS24/VS24_Apnea.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS24/VS24_Apnea.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS24/VS24_Apnea.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS24/VS24_Apnea.mat,VitalSig,constant_signal_check,"std=1.5696, range=5.6890",PASS,std=1.5696 > 1e-06,Dynamic signal variation confirmed
+VS24/VS24_Apnea.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS24/VS24_Apnea.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS24/VS24_Apnea_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS24/VS24_Apnea_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS24/VS24_Apnea_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS24/VS24_Apnea_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS24/VS24_Apnea_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS24/VS24_Apnea_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=67.0, max=78.0)",PASS,"Observed HR range: [67.0, 78.0] bpm",Values within normal human physiological bounds
+VS24/VS24_Apnea_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS24/VS24_Apnea_Mindray.mat,respiration,sampling_frequency_resp,30720 samples (120.0s @ 256 Hz),PASS,Full 120s duration for respiration,Respiration signal complete
+VS24/VS24_Apnea_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified
+VS24/VS24_Resting.mat,VitalSig,field_presence,PRESENT,PASS,Field 'VitalSig' extracted from MAT structure,Field exists
+VS24/VS24_Resting.mat,VitalSig,array_type,numpy.ndarray,PASS,"Object type: ndarray, dtype: float64",Valid array type
+VS24/VS24_Resting.mat,VitalSig,empty_check,40000 samples,PASS,"Array shape: (40000,)",Signal array is non-empty
+VS24/VS24_Resting.mat,VitalSig,nan_check,0 NaNs,PASS,All samples are non-NaN,No NaN values detected
+VS24/VS24_Resting.mat,VitalSig,infinity_check,0 Infs,PASS,No infinite values found,Signal is finite
+VS24/VS24_Resting.mat,VitalSig,constant_signal_check,"std=0.7183, range=3.0815",PASS,std=0.7183 > 1e-06,Dynamic signal variation confirmed
+VS24/VS24_Resting.mat,Radar.fs,sampling_frequency_check,333.3333 Hz,PASS,Value 333.3333333333333 extracted from Radar.fs,Sampling frequency is positive and finite; calculated duration = 120.0s
+VS24/VS24_Resting.mat,Radar.t_frame,time_vector_consistency,40000 samples,PASS,Radar.t_frame length (40000) matches VitalSig length (40000),Time series vector dimensions are consistent
+VS24/VS24_Resting_Mindray.mat,HR,field_presence_hr,PRESENT,PASS,Field 'HR' extracted successfully,Field exists
+VS24/VS24_Resting_Mindray.mat,HR,array_type_hr,numpy.ndarray,PASS,"dtype: uint8, shape: (120,)",Valid array type
+VS24/VS24_Resting_Mindray.mat,HR,nan_check_hr,0 NaNs,PASS,No NaN values in HR array,Clean numeric HR values
+VS24/VS24_Resting_Mindray.mat,HR,infinity_check_hr,0 Infs,PASS,No infinite values in HR array,Finite HR measurements
+VS24/VS24_Resting_Mindray.mat,HR,zero_hr_dropout_check,0 zero values,PASS,No zero HR samples found,No sensor detachment dropouts detected
+VS24/VS24_Resting_Mindray.mat,HR,physiological_bounds_hr,"All within [30, 220] bpm (min=68.0, max=74.0)",PASS,"Observed HR range: [68.0, 74.0] bpm",Values within normal human physiological bounds
+VS24/VS24_Resting_Mindray.mat,ecg_lead2,field_presence_ecg,60000 samples @ 500 Hz,PASS,"ECG Lead II available, duration = 120.0s",Synchronous reference ECG Lead II available
+VS24/VS24_Resting_Mindray.mat,respiration,sampling_frequency_resp,30600 samples (119.53s @ 256 Hz),WARNING,"Expected 30720 samples (120s), observed 30600 samples",Dimension inconsistency: respiration duration slightly less than 120s
+VS24/VS24_Resting_Mindray.mat,TIMESTAMP_VECTOR,timestamp_vector_presence,MISSING,UNVERIFIED,No explicit hardware time vector found in Mindray MAT file,Clock synchronization with radar is unverified

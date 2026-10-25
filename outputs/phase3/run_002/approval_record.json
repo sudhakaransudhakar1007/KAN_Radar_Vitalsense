@@ -1,0 +1,65 @@
+{
+  "project": "A Subject-Independent KAN-Based Framework for Non-Contact Heart-Rate Estimation from 120-GHz FMCW Radar Signals",
+  "dataset": "VITALSENSE",
+  "stage": "Phase 3 — Scientific Preflight and Dataset Readiness",
+  "run_id": "run_002",
+  "approval_date": "2026-10-15",
+  "approval_status": "USER_APPROVED_WITH_DOCUMENTED_LIMITATIONS",
+  "user_approved_decisions": [
+    {
+      "decision_id": "DEC-01",
+      "topic": "Radar–ECG Synchronization Audit Approach",
+      "approval_verdict": "USER_APPROVED",
+      "approval_scope": "Approved for proceeding under the documented synchronization assumptions and limitations.",
+      "retained_assumptions_and_limitations": [
+        "Hardware clock synchronization remains UNVERIFIED (no PPS pulses, TTL trigger signals, or common digitizer clock timestamps found in any of the 96 files).",
+        "Relative timing alignment relies on the nominal zero-offset assumption (t0 = 0.0 s for both radar and reference devices).",
+        "Mindray monitor display HR array remains strictly DISQUALIFIED from serving as supervised training labels due to the documented +6s to +7s display delay.",
+        "This approval constitutes an operational user decision to proceed with window-level evaluation, NOT independent physical or mathematical proof of sub-second hardware synchronization."
+      ]
+    },
+    {
+      "decision_id": "DEC-02",
+      "topic": "ECG R-Peak Detection and Quality-Screening Approach",
+      "approval_verdict": "USER_APPROVED",
+      "approval_scope": "Approved for proceeding using the documented proposed SQI screening criteria.",
+      "exact_sqi_thresholds": {
+        "valid_rr_coverage_pct_threshold": "> 85.0%",
+        "max_rr_gap_seconds_threshold": "< 3.0 s",
+        "physiological_heart_rate_bounds_bpm": [35.0, 185.0],
+        "physiological_rr_interval_bounds_s": [0.3243, 1.7143]
+      },
+      "retained_assumptions_and_limitations": [
+        "In-memory linear interpolation of isolated periodic delimiter NaNs is authorized strictly for continuous QRS detection; zero raw MAT files are modified.",
+        "VS20_Apnea exhibited a reported maximum RR gap of 3.12 s and does not meet the proposed maximum-gap criterion (< 3.0 s).",
+        "VS10_Resting exhibits a delimiter NaN at sample index 0 (leading boundary), requiring explicit documented handling.",
+        "Recordings or windows failing the SQI criteria are strictly excluded from supervised ground-truth label generation.",
+        "A passing SQI score validates ECG physiological plausibility, but does NOT prove physical synchronization with the radar signal.",
+        "This approval constitutes an operational user decision on quality screening thresholds, NOT proof that every raw ECG recording in the dataset is free of artifacts."
+      ]
+    },
+    {
+      "decision_id": "DEC-03",
+      "topic": "Primary Radar Preprocessing Filter Selection",
+      "approval_verdict": "USER_APPROVED",
+      "approved_filter": "Cardiac 0.8–3.0 Hz Bandpass Filter (3rd-order zero-phase Butterworth, 48–180 bpm)",
+      "empirical_basis": {
+        "mean_cardiac_band_power_ratio_cardiac_filter": 0.4843,
+        "mean_cardiac_band_power_ratio_1_20hz_candidate": 0.3911,
+        "mean_cardiac_band_power_ratio_raw_vitalsig": 0.0060,
+        "nyquist_validity": "Valid across all 48 recordings (high cutoff 3.0 Hz << 166.67 Hz Nyquist)"
+      },
+      "retained_assumptions_and_limitations": [
+        "Selection of 0.8–3.0 Hz filter is based strictly on empirical cardiac-band power concentration.",
+        "Cardiac-band power concentration is explicitly distinguished from downstream heart-rate estimation accuracy.",
+        "No claim is made that this filter improves KAN or baseline model accuracy without empirical downstream model evaluation evidence."
+      ]
+    }
+  ],
+  "governance_stop_condition": {
+    "phase2a_finalization_gate": "OPEN",
+    "supervised_dataset_window_generation": "BLOCKED",
+    "model_training": "NOT_STARTED",
+    "rule": "Approval of Phase 3 preflight decisions does NOT automatically close the Phase 2A Finalization Gate or authorize persistent supervised label generation."
+  }
+}

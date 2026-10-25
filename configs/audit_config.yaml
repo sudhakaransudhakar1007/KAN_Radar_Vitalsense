@@ -1,0 +1,14 @@
+# VITALSENSE Dataset Audit Configuration
+# Stage A & Stage B parameters
+
+# Dataset root directory relative to kan_radar_hr project root
+dataset_root: "../data/VITALSENSE_120_DATASET"
+
+# Documentation directory relative to kan_radar_hr project root
+docs_dir: "../data/VITALSENSE_120_DATASET"
+
+# Audit results output directory
+output_dir: "outputs/phase1_audit"
+
+# Near-constant signal detection threshold (variance or std)
+near_constant_std_threshold: 1.0e-6

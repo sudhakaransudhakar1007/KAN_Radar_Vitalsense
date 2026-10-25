@@ -1,0 +1,109 @@
+{
+  "manifest_schema": "phase8_demo_simulation_manifest_v1",
+  "project_title": "A Subject-Independent KAN-Based Framework for Non-Contact Heart-Rate Estimation from 120-GHz FMCW Radar Signals",
+  "phase": "Phase 8 \u2014 Recorded Radar Data Streaming Simulation",
+  "run_id": "run_001",
+  "execution_date_utc": "2026-10-18T05:55:00Z",
+  "governance": {
+    "phase2a_gate_status": "OPEN",
+    "phase2a_gate_file": "outputs/phase2a/step2b_consistency_audit.md",
+    "real_data_training_authorized": false,
+    "supervised_tensors_exported": false
+  },
+  "operating_mode": {
+    "active_mode": "MODE_A_VISUALIZATION_ONLY",
+    "saved_model_inference_ready": true,
+    "trained_checkpoints_found": 0,
+    "zero_fabrication_enforced": true
+  },
+  "windowing_configuration": {
+    "nominal_duration_s": 120.0,
+    "nominal_samples": 40000,
+    "fs_hz": 333.3333333333333,
+    "window_duration_s": 10.0,
+    "hop_duration_s": 5.0,
+    "window_samples": 3333,
+    "hop_samples": 1667,
+    "total_complete_windows": 22,
+    "trailing_tail_samples": 1660,
+    "trailing_tail_duration_s": 4.98
+  },
+  "dataset": {
+    "dataset_dir": "../data/VITALSENSE_120_DATASET",
+    "subjects_count": 24,
+    "recordings_count": 48,
+    "conditions": [
+      "Resting",
+      "Apnea"
+    ]
+  },
+  "test_summary": {
+    "demo_simulation_tests": 12,
+    "demo_simulation_passed": 12,
+    "full_repo_tests": 112,
+    "full_repo_passed": 112,
+    "regression_failures": 0
+  },
+  "component_files": {
+    "src/demo/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "src/demo/model_loader.py": {
+      "bytes": 10650,
+      "sha256": "51395317e039a52af5058733a085f8cdf9d969da18760efdc87aab5e541479dc"
+    },
+    "src/demo/simulation_engine.py": {
+      "bytes": 16054,
+      "sha256": "ba0a8661f47921bbcf2d5f9003698faf13850c49e54fed665f6e2398c3ad81a1"
+    },
+    "src/demo/app.py": {
+      "bytes": 7958,
+      "sha256": "c826af62c5e12adf0bb385c5c14bafe2843416e85e9403bfb36f87f67eacd40a"
+    },
+    "src/demo/cli.py": {
+      "bytes": 4470,
+      "sha256": "66bba17cbbae20addc2df56f920f28ec6ae682e8597b0822fe33f97519b368ff"
+    },
+    "src/demo/templates/index.html": {
+      "bytes": 7216,
+      "sha256": "5db03642a434794364a5c04b1626458a249ea739a8590e6890e392b8f62413a8"
+    },
+    "src/demo/static/app.css": {
+      "bytes": 7047,
+      "sha256": "1a35007d3c3f2f6f9fd828deabf5c1463d2b6705dcd7615efb7d331650e71af6"
+    },
+    "src/demo/static/app.js": {
+      "bytes": 15485,
+      "sha256": "c8bdc9fdffee81497c3c49d72420a25540a7a626d2032bd979c280e8e8b26536"
+    },
+    "tests/test_demo_simulation.py": {
+      "bytes": 13956,
+      "sha256": "a4465492d9c38453514ec162be21dfacac6ca5452a909cd4159687ba04803429"
+    },
+    "outputs/demo_simulation/run_001/demo_implementation_plan.md": {
+      "bytes": 8107,
+      "sha256": "f1956bb8538dd959c6362df13d30749e6757b7b3725de493ff64acaf4569fe4f"
+    },
+    "outputs/demo_simulation/run_001/demo_architecture.md": {
+      "bytes": 12901,
+      "sha256": "1656b81082eddd1bf1df294ff1731ca0cef2c40d29993fcc1c812978e26b4f1c"
+    },
+    "outputs/demo_simulation/run_001/demo_data_and_window_validation.md": {
+      "bytes": 7390,
+      "sha256": "04059bd55ec13c31a27b2c2c033db7c36fd59ce270256bdbfb3292e8319982f4"
+    },
+    "outputs/demo_simulation/run_001/demo_model_inference_compatibility.md": {
+      "bytes": 6318,
+      "sha256": "9fe71421622f25cc6bd5eacd16b7eac96d0a8fb44f54aac7f8a132d99100d322"
+    },
+    "outputs/demo_simulation/run_001/demo_test_execution_record.md": {
+      "bytes": 7137,
+      "sha256": "8ac1f81beed2cb1ed9f0273d4c5df61f08adaa3e0180204620ebacc20c5af850"
+    },
+    "outputs/demo_simulation/run_001/demo_limitations_and_provenance.md": {
+      "bytes": 5079,
+      "sha256": "5302ae262b80dd7b2d1a91db7609dcbab5fac8468d0e9b0ef801fe1aa74c0d64"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+fold,test_subject,val_subjects,train_subjects,train_samples,val_samples,test_samples,subject_leakage_detected
+1,SYNTH_S01,SYNTH_S02;SYNTH_S03,SYNTH_S04,4,8,4,False

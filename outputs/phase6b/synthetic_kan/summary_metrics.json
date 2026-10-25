@@ -1,0 +1,110 @@
+{
+  "run_id": "synthetic_kan",
+  "benchmark_status": "SYNTHETIC_BENCHMARK",
+  "folds_evaluated": 8,
+  "mean_mae_bpm": 2.592,
+  "std_mae_bpm": 2.85,
+  "mean_rmse_bpm": 2.928,
+  "mean_bias_bpm": -0.761,
+  "mean_pearson_r": 0.8606,
+  "overall_within_3bpm_pct": 70.0,
+  "overall_within_5bpm_pct": 82.5,
+  "fold_breakdown": [
+    {
+      "fold": 1,
+      "test_subject": "SYNTH_S01",
+      "mae_bpm": 0.407,
+      "rmse_bpm": 0.504,
+      "bias_bpm": 0.195,
+      "pearson_r": 0.984,
+      "within_3bpm_pct": 100.0,
+      "within_5bpm_pct": 100.0,
+      "best_epoch": 15,
+      "best_val_loss": 0.341767
+    },
+    {
+      "fold": 2,
+      "test_subject": "SYNTH_S02",
+      "mae_bpm": 9.612,
+      "rmse_bpm": 9.945,
+      "bias_bpm": -9.612,
+      "pearson_r": 0.7833,
+      "within_3bpm_pct": 0.0,
+      "within_5bpm_pct": 0.0,
+      "best_epoch": 12,
+      "best_val_loss": 0.01755
+    },
+    {
+      "fold": 3,
+      "test_subject": "SYNTH_S03",
+      "mae_bpm": 0.506,
+      "rmse_bpm": 0.593,
+      "bias_bpm": 0.293,
+      "pearson_r": 0.9817,
+      "within_3bpm_pct": 100.0,
+      "within_5bpm_pct": 100.0,
+      "best_epoch": 12,
+      "best_val_loss": 0.023421
+    },
+    {
+      "fold": 4,
+      "test_subject": "SYNTH_S04",
+      "mae_bpm": 1.077,
+      "rmse_bpm": 1.284,
+      "bias_bpm": 0.0,
+      "pearson_r": 0.987,
+      "within_3bpm_pct": 100.0,
+      "within_5bpm_pct": 100.0,
+      "best_epoch": 14,
+      "best_val_loss": 0.02754
+    },
+    {
+      "fold": 5,
+      "test_subject": "SYNTH_S05",
+      "mae_bpm": 2.102,
+      "rmse_bpm": 2.463,
+      "bias_bpm": 0.272,
+      "pearson_r": 0.6645,
+      "within_3bpm_pct": 70.0,
+      "within_5bpm_pct": 100.0,
+      "best_epoch": 6,
+      "best_val_loss": 0.032653
+    },
+    {
+      "fold": 6,
+      "test_subject": "SYNTH_S06",
+      "mae_bpm": 2.152,
+      "rmse_bpm": 2.969,
+      "bias_bpm": -0.13,
+      "pearson_r": 0.7024,
+      "within_3bpm_pct": 60.0,
+      "within_5bpm_pct": 90.0,
+      "best_epoch": 4,
+      "best_val_loss": 1.741539
+    },
+    {
+      "fold": 7,
+      "test_subject": "SYNTH_S07",
+      "mae_bpm": 1.06,
+      "rmse_bpm": 1.207,
+      "bias_bpm": -0.925,
+      "pearson_r": 0.9872,
+      "within_3bpm_pct": 100.0,
+      "within_5bpm_pct": 100.0,
+      "best_epoch": 11,
+      "best_val_loss": 0.071525
+    },
+    {
+      "fold": 8,
+      "test_subject": "SYNTH_S08",
+      "mae_bpm": 3.818,
+      "rmse_bpm": 4.458,
+      "bias_bpm": 3.818,
+      "pearson_r": 0.7945,
+      "within_3bpm_pct": 30.0,
+      "within_5bpm_pct": 70.0,
+      "best_epoch": 9,
+      "best_val_loss": 1.811223
+    }
+  ]
+}

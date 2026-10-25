@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KAN Radar HR — Recorded Data Streaming Simulation</title>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-main">
+        <div class="title-group">
+          <h1>Subject-Independent KAN Radar Heart-Rate Estimation</h1>
+          <p class="subtitle">Recorded Radar Data — Streaming Replay & Rolling Window Simulation Demo</p>
+        </div>
+        <div class="badges-group">
+          <span class="badge badge-simulation">RECORDED DATA PLAYBACK (OFFLINE SIMULATION)</span>
+          <span id="badge-mode" class="badge badge-model-unavailable">VISUALIZATION ONLY</span>
+          <span id="badge-model-state" class="badge badge-gate">STATE: MODEL_UNAVAILABLE</span>
+          <span class="badge badge-gate">PHASE 2A GATE: OPEN</span>
+        </div>
+      </div>
+      <div class="disclaimer-banner">
+        ⚠️ <strong>Research Disclaimer:</strong> This is an offline software replay of recorded VITALSENSE radar signals. Hardware clock synchronization is unverified (nominal T₀=0s). No physical radar hardware is connected. Not clinical software.
+      </div>
+    </header>
+
+    <!-- Controls Toolbar -->
+    <section class="toolbar-card">
+      <div class="toolbar-left">
+        <label for="recording-select"><strong>Selected Recording:</strong></label>
+        <select id="recording-select" class="form-control">
+          <option value="">Loading recordings...</option>
+        </select>
+      </div>
+      <div class="toolbar-center">
+        <button id="btn-start" class="btn btn-primary">▶ Start</button>
+        <button id="btn-pause" class="btn btn-secondary" disabled>⏸ Pause</button>
+        <button id="btn-resume" class="btn btn-secondary" disabled>⏯ Resume</button>
+        <button id="btn-step" class="btn btn-secondary">⏭ Step Window</button>
+        <button id="btn-reset" class="btn btn-danger">↺ Reset</button>
+      </div>
+      <div class="toolbar-right">
+        <label for="speed-select"><strong>Speed:</strong></label>
+        <select id="speed-select" class="form-control speed-control">
+          <option value="0.5">0.5×</option>
+          <option value="1.0" selected>1.0×</option>
+          <option value="2.0">2.0×</option>
+        </select>
+        <button id="btn-export" class="btn btn-outline">💾 Export Session</button>
+      </div>
+    </section>
+
+    <!-- Summary Metric Cards Grid -->
+    <section class="metrics-grid">
+      <div class="metric-card">
+        <div class="metric-label">Simulation State</div>
+        <div id="val-state" class="metric-value text-amber">READY</div>
+        <div id="sub-state" class="metric-sub">Buffer initialized</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Elapsed Sim Time</div>
+        <div id="val-time" class="metric-value">0.00 s</div>
+        <div id="sub-time" class="metric-sub">Total: -- s</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Current Rolling Window</div>
+        <div id="val-window" class="metric-value">None</div>
+        <div id="sub-window" class="metric-sub">10s win / 5s hop</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Radar Sampling Rate</div>
+        <div id="val-fs" class="metric-value">333.33 Hz</div>
+        <div class="metric-sub">Metadata: Radar.fs</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Signal Quality</div>
+        <div id="val-quality" class="metric-value text-green">VALID_FINITE</div>
+        <div class="metric-sub">VitalSig check</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Model Status</div>
+        <div id="val-model" class="metric-value text-red">UNAVAILABLE</div>
+        <div id="sub-model" class="metric-sub">No trained checkpoint</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Latest HR Estimate</div>
+        <div id="val-hr" class="metric-value text-muted">N/A</div>
+        <div id="sub-hr" class="metric-sub">Prediction suppressed</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">Inference Latency</div>
+        <div id="val-latency" class="metric-value text-muted">N/A</div>
+        <div class="metric-sub">Evaluation only</div>
+      </div>
+    </section>
+
+    <!-- Main Visualizations Grid -->
+    <section class="charts-grid">
+      <!-- Radar Waveform Canvas Chart -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3>Rolling Radar Waveform (Cardiac Band 0.8 - 3.0 Hz)</h3>
+          <span class="chart-tag">Active 10s Window Highlighted</span>
+        </div>
+        <div class="canvas-container">
+          <canvas id="radar-canvas" width="800" height="260"></canvas>
+        </div>
+        <div class="chart-legend">
+          <span class="legend-item"><span class="legend-color legend-blue"></span> Filtered Radar VitalSig</span>
+          <span class="legend-item"><span class="legend-color legend-box"></span> Current 10-Second Window [t_start - t_end]</span>
+        </div>
+      </div>
+
+      <!-- HR Prediction History Canvas Chart -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <h3>Heart-Rate Estimates vs Simulation Time (BPM)</h3>
+          <span id="pred-chart-tag" class="chart-tag tag-warning">Model Unavailable — Visualization Mode</span>
+        </div>
+        <div class="canvas-container">
+          <canvas id="hr-canvas" width="800" height="260"></canvas>
+        </div>
+        <div class="chart-legend">
+          <span class="legend-item"><span class="legend-color legend-green"></span> KAN Model Prediction (BPM)</span>
+          <span class="legend-item"><span class="legend-color legend-gray"></span> Placeholder: No Fabricated Values Allowed</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Window Processing History Table -->
+    <section class="history-card">
+      <div class="history-header">
+        <h3>Window-Level Processing Audit Log</h3>
+        <span id="window-count-pill" class="badge badge-info">0 Windows Processed</span>
+      </div>
+      <div class="table-container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Window #</th>
+              <th>Time Range (s)</th>
+              <th>Samples</th>
+              <th>Status</th>
+              <th>HR Estimate (BPM)</th>
+              <th>Latency (ms)</th>
+              <th>Provenance & Validation Note</th>
+            </tr>
+          </thead>
+          <tbody id="history-tbody">
+            <tr class="empty-row">
+              <td colspan="7">No windows processed yet. Click <strong>Start</strong> or <strong>Step Window</strong> to begin simulation replay.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <p>KAN FMCW Radar HR Research Demo • Phase 8 Complete Implementation • Session ID: <code id="lbl-session">--</code></p>
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+[2026-10-12 21:05:15,113] [INFO] ================================================================================
+[2026-10-12 21:05:15,114] [INFO] VITALSENSE DATASET AUDIT — STAGE B EXECUTION
+[2026-10-12 21:05:15,114] [INFO] ================================================================================
+[2026-10-12 21:05:15,134] [INFO] Running radar-reference pairing analysis...
+[2026-10-12 21:05:15,136] [INFO] Generated: outputs\phase1_audit\radar_reference_pairing.csv (48 pairings)
+[2026-10-12 21:05:15,136] [INFO] Running signal and reference quality validation...
+[2026-10-12 21:05:15,596] [INFO] Generated: outputs\phase1_audit\radar_signal_inventory.csv
+[2026-10-12 21:05:15,596] [INFO] Generated: outputs\phase1_audit\reference_inventory.csv
+[2026-10-12 21:05:15,596] [INFO] Generated: outputs\phase1_audit\data_quality_report.csv (0 checks flagged)
+[2026-10-12 21:05:15,596] [INFO] Running timing and synchronization audit...
+[2026-10-12 21:05:15,602] [INFO] Generated: outputs\phase1_audit\synchronization_audit.csv
+[2026-10-12 21:05:15,603] [INFO] Generated: outputs\phase1_audit\subject_recording_inventory.csv
+[2026-10-12 21:05:15,606] [INFO] STAGE B COMPLETE
+[2026-10-12 21:59:20,109] [INFO] ================================================================================
+[2026-10-12 21:59:20,110] [INFO] VITALSENSE DATASET AUDIT — STAGE B EXECUTION (CORRECTED)
+[2026-10-12 21:59:20,110] [INFO] ================================================================================
+[2026-10-12 21:59:20,115] [INFO] Running radar-reference pairing analysis with rigorous status rules...
+[2026-10-12 21:59:20,116] [INFO] Generated: outputs\phase1_audit\radar_reference_pairing.csv (48 candidate pairs)
+[2026-10-12 21:59:20,116] [INFO] Running comprehensive signal and reference quality validation...
+[2026-10-12 21:59:20,664] [INFO] Generated: outputs\phase1_audit\radar_signal_inventory.csv (48 records)
+[2026-10-12 21:59:20,666] [INFO] Generated: outputs\phase1_audit\reference_inventory.csv (48 records)
+[2026-10-12 22:03:25,360] [INFO] ================================================================================
+[2026-10-12 22:03:25,361] [INFO] VITALSENSE DATASET AUDIT — STAGE B EXECUTION (CORRECTED)
+[2026-10-12 22:03:25,361] [INFO] ================================================================================
+[2026-10-12 22:03:25,366] [INFO] Running radar-reference pairing analysis with rigorous status rules...
+[2026-10-12 22:03:25,368] [INFO] Generated: outputs\phase1_audit\radar_reference_pairing.csv (48 candidate pairs)
+[2026-10-12 22:03:25,368] [INFO] Running comprehensive signal and reference quality validation...
+[2026-10-12 22:03:25,908] [INFO] Generated: outputs\phase1_audit\radar_signal_inventory.csv (48 records)
+[2026-10-12 22:03:25,909] [INFO] Generated: outputs\phase1_audit\reference_inventory.csv (48 records)
+[2026-10-12 22:03:25,916] [INFO] Generated: outputs\phase1_audit\data_quality_report.csv (816 executed check records)
+[2026-10-12 22:03:25,916] [INFO] Running timing and synchronization audit...
+[2026-10-12 22:03:25,920] [INFO] Generated: outputs\phase1_audit\synchronization_audit.csv (48 audit records)
+[2026-10-12 22:03:25,923] [INFO] Generated: outputs\phase1_audit\subject_recording_inventory.csv (24 subjects)
+[2026-10-12 22:03:25,925] [INFO] Generated: outputs\phase1_audit\phase1_summary.json
+[2026-10-12 22:03:25,925] [INFO] Generated: outputs\phase1_audit\correction_log.md
+[2026-10-12 22:03:25,927] [INFO] Generated: outputs\phase1_audit\audit_summary.md
+[2026-10-12 22:03:25,927] [INFO] 
+================================================================================
+[2026-10-12 22:03:25,927] [INFO] STAGE B AUDIT FINDINGS SUMMARY (CORRECTED)
+[2026-10-12 22:03:25,927] [INFO] ================================================================================
+[2026-10-12 22:03:25,927] [INFO] Discovered .mat files:             96
+[2026-10-12 22:03:25,927] [INFO] Candidate subject folders:         24
+[2026-10-12 22:03:25,927] [INFO] Radar recordings validated:        48
+[2026-10-12 22:03:25,927] [INFO] Reference recordings validated:    48
+[2026-10-12 22:03:25,927] [INFO] Candidate pairs evaluated:         48
+[2026-10-12 22:03:25,927] [INFO]   - PROBABLE_MATCH:                48
+[2026-10-12 22:03:25,928] [INFO]   - VERIFIED_MATCH:                0
+[2026-10-12 22:03:25,928] [INFO] Executed quality checks:           816 (Passed: 767, Warnings: 1)
+[2026-10-12 22:03:25,928] [INFO] Synchronization status:            UNVERIFIED_TIMING (Equal 120s durations, clock unverified)
+[2026-10-12 22:03:25,928] [INFO] Provisional eligible subjects:     24 of 24
+[2026-10-12 22:03:25,928] [INFO] Phase 2 Model Training Readiness:  BLOCKED_PENDING_SYNCHRONIZATION_ALIGNMENT
+[2026-10-12 22:03:25,928] [INFO] ================================================================================
+[2026-10-12 22:03:25,930] [INFO] STAGE B COMPLETE
